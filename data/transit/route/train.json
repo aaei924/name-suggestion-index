@@ -2475,9 +2475,10 @@
       "tags": {
         "network": "SRT",
         "network:wikidata": "Q3088068",
-        "operator": "SR공사",
+        "operator": "에스알",
         "operator:en": "SR Corporation",
-        "operator:ko": "SR공사",
+        "operator:ko": "에스알",
+        "operator:type": "public",
         "operator:wikidata": "Q15615204",
         "route": "train"
       }
