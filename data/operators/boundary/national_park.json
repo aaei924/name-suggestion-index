@@ -318,6 +318,17 @@
       }
     },
     {
+      "displayName": "국립공원공단",
+      "locationSet": {"include": ["kr"]},
+      "tags": {
+        "boundary": "national_park",
+        "operator": "국립공원공단",
+        "operator:en": "Korea National Park Service",
+        "operator:short": "KNPS",
+        "operator:wikidata": "Q12585691"
+      }
+    },
+    {
       "displayName": "漁農自然護理署 Agriculture, Fisheries and Conservation Department",
       "id": "agriculturefisheriesandconservationdepartment-52b423",
       "locationSet": {"include": ["hk"]},
