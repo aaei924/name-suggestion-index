@@ -311,17 +311,8 @@
       "locationSet": {"include": ["kr"]},
       "tags": {
         "amenity": "telephone",
-        "operator": "KT"
-      }
-    },
-    {
-      "displayName": "kt링커스",
-      "id": "80505e-9fd277",
-      "locationSet": {"include": ["kr"]},
-      "tags": {
-        "amenity": "telephone",
-        "operator": "kt링커스",
-        "operator:ko": "kt링커스"
+        "operator": "KT",
+        "operator:wikidata": "Q485908"
       }
     },
     {
