@@ -670,7 +670,7 @@
       }
     },
     {
-      "displayName": "타이어뱅크 (Tire Bank)",
+      "displayName": "타이어뱅크",
       "id": "tirebank-f5977f",
       "locationSet": {"include": ["kr"]},
       "tags": {
@@ -681,6 +681,20 @@
         "name": "타이어뱅크",
         "name:en": "Tire Bank",
         "name:ko": "타이어뱅크",
+        "shop": "tyres"
+      }
+    },
+    {
+      "displayName": "티스테이션",
+      "locationSet": {"include": ["kr"]},
+      "tags": {
+        "brand": "티스테이션",
+        "brand:en": "T'Station",
+        "brand:ko": "티스테이션",
+        "brand:wikidata": "Q131375525",
+        "name": "티스테이션",
+        "name:en": "T'Station",
+        "name:ko": "티스테이션",
         "shop": "tyres"
       }
     }
