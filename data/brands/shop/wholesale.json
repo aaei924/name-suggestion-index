@@ -545,6 +545,22 @@
         "name:zh": "麦德龙",
         "shop": "wholesale"
       }
+    },
+    {
+      "displayName": "트레이더스 홀세일 클럽",
+      "locationSet": {
+        "include": ["kr"]
+      },
+      "tags": {
+        "brand": "트레이더스 홀세일 클럽",
+        "brand:en": "TRADERS WHOLESALE CLUB",
+        "brand:wikidata": "Q65328982",
+        "brand:ko": "트레이더스 홀세일 클럽",
+        "name": "트레이더스 홀세일 클럽",
+        "name:en": "TRADERS WHOLESALE CLUB",
+        "name:ko": "트레이더스 홀세일 클럽",
+        "shop": "wholesale"
+      }
     }
   ]
 }
