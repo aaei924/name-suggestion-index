@@ -182,7 +182,7 @@
       "displayName": "한국도로공사",
       "id": "koreaexpresswaycorporation-f69d00",
       "locationSet": {"include": ["kr"]},
-      "matchNames": ["도로공사"],
+      "matchNames": ["톨게이트","요금소","영업소","원톨링","하이패스"],
       "tags": {
         "highway": "toll_gantry",
         "operator": "한국도로공사",
