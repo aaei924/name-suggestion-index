@@ -2051,6 +2051,51 @@
         "operator:zh": "苏州天空之城图书有限公司",
         "shop": "books"
       }
+    },
+    {
+      "displayName": "교보문고",
+      "locationSet": {"include": ["kr"]},
+      "tags": {
+        "brand": "교보문고",
+        "brand:en": "Kyobo",
+        "brand:wikidata": "Q489774",
+        "brand:ko": "교보문고",
+        "name": "교보문고",
+        "name:en": "Kyobo Book Centre",
+        "name:ko": "교보문고",
+        "name:ja": "教保文庫",
+        "shop": "books"
+      }
+    },
+    {
+      "displayName": "영풍문고",
+      "locationSet": {"include": ["kr"]},
+      "tags": {
+        "brand": "영풍문고",
+        "brand:en": "YP Books",
+        "brand:wikidata": "Q12607562",
+        "brand:ko": "영풍문고",
+        "name": "영풍문고",
+        "name:en": "Young Poong Books",
+        "name:ko": "영풍문고",
+        "name:ja": "永豊文庫",
+        "shop": "books"
+      }
+    },
+    {
+      "displayName": "종로서적",
+      "locationSet": {"include": ["kr"]},
+      "tags": {
+        "brand": "종로서적",
+        "brand:en": "Jongno Books",
+        "brand:wikidata": "Q85985348",
+        "brand:ko": "종로서적",
+        "name": "종로서적",
+        "name:en": "Jongno Books",
+        "name:ko": "종로서적",
+        "name:ja": "鍾路書籍",
+        "shop": "books"
+      }
     }
   ]
 }
