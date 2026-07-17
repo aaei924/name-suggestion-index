@@ -15094,14 +15094,16 @@
       }
     },
     {
-      "displayName": "한국철도시설공단",
+      "displayName": "국가철도공단",
       "id": "koreanationalrailway-de9ad2",
       "locationSet": {"include": ["kr"]},
       "tags": {
-        "operator": "한국철도시설공단",
+        "operator": "국가철도공단",
         "operator:en": "Korea National Railway",
-        "operator:ko": "한국철도시설공단",
+        "operator:ko": "국가철도공단",
+        "operator:short": "KR",
         "operator:wikidata": "Q624022",
+        "operator:type": "public",
         "power": "substation"
       }
     },
