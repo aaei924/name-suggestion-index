@@ -1767,6 +1767,20 @@
         "name:zh": "歐特耐養護中心",
         "shop": "car_repair"
       }
+    },
+    {
+      "displayName": "블루핸즈",
+      "locationSet": {"include": ["kr"]},
+      "tags": {
+        "brand": "블루핸즈",
+        "brand:en": "Bluehands",
+        "brand:wikidata": "Q97201162",
+        "brand:ko": "블루핸즈",
+        "name": "블루핸즈",
+        "name:en": "Bluehands",
+        "name:ko": "블루핸즈",
+        "shop": "car_repair"
+      }
     }
   ]
 }
