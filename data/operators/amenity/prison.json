@@ -740,6 +740,20 @@
         "operator:type": "government",
         "operator:wikidata": "Q15913528"
       }
+    },
+    {
+      "displayName": "교정본부",
+      "locationSet": {"include": ["kr"]},
+      "matchNames": ["법무부"],
+      "tags": {
+        "amenity": "prison",
+        "operator": "교정본부",
+        "operator:ko": "교정본부",
+        "operator:en": "Korea Correctional Service",
+        "operator:short": "KCS",
+        "operator:type": "government",
+        "operator:wikidata": "Q12585291"
+      }
     }
   ]
 }
