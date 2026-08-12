@@ -7030,14 +7030,17 @@
       }
     },
     {
-      "displayName": "Plzeňská teplárenská, a.s.",
-      "id": "plzenskateplarenskaas-fc6827",
+      "displayName": "Plzeňská teplárenská",
+      "id": "plzenskateplarenska-fc6827",
       "locationSet": {
         "include": ["cz-32.geojson"]
       },
+      "matchNames": [
+        "plzeňská teplárenská, a.s."
+      ],
       "tags": {
         "man_made": "pipeline",
-        "operator": "Plzeňská teplárenská, a.s.",
+        "operator": "Plzeňská teplárenská",
         "operator:wikidata": "Q58206548"
       }
     },

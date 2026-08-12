@@ -147,8 +147,8 @@
     },
     {
       "displayName": "Dollar Car Rental",
-      "id": "dollarcarrental-d50162",
-      "locationSet": {"include": ["us"]},
+      "id": "dollarcarrental-d9531a",
+      "locationSet": {"include": ["001"]},
       "matchNames": [
         "dollar",
         "dollar rent a car"
@@ -311,10 +311,8 @@
     },
     {
       "displayName": "National",
-      "id": "national-6ebae1",
-      "locationSet": {
-        "include": ["ca", "gb", "mx", "us"]
-      },
+      "id": "national-d9531a",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "amenity": "car_rental",
         "brand": "National",

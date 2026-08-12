@@ -546,9 +546,10 @@
     },
     {
       "displayName": "Benu",
-      "id": "benu-9cc401",
+      "id": "benu-c1f9dd",
       "locationSet": {
         "include": [
+          "be",
           "bg",
           "ch",
           "cz",
@@ -3332,7 +3333,9 @@
         "brand": "Proxim",
         "brand:wikidata": "Q3408523",
         "healthcare": "pharmacy",
-        "name": "Proxim"
+        "name": "Proxim",
+        "operator": "Corporation Groupe Pharmessor",
+        "operator:wikidata": "Q139621965"
       }
     },
     {
@@ -5247,6 +5250,19 @@
         "brand:wikidata": "Q117706903",
         "healthcare": "pharmacy",
         "name": "Подорожник"
+      }
+    },
+    {
+      "displayName": "ПроФарма",
+      "id": "a376b9-768624",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": ["profarma"],
+      "tags": {
+        "amenity": "pharmacy",
+        "brand": "ПроФарма",
+        "brand:wikidata": "Q108852096",
+        "healthcare": "pharmacy",
+        "name": "ПроФарма"
       }
     },
     {

@@ -1114,6 +1114,29 @@
       }
     },
     {
+      "displayName": "Caffe Bene",
+      "id": "caffebene-f30cc0",
+      "locationSet": {
+        "include": ["kr", "mn", "tw"]
+      },
+      "matchNames": [
+        "cafe bene",
+        "кафе бэнэ",
+        "咖啡伴"
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Caffebene",
+        "brand:wikidata": "Q5017149",
+        "cuisine": "coffee_shop",
+        "name": "Caffe Bene",
+        "name:en": "Caffe Bene",
+        "name:ko": "카페베네",
+        "name:zh": "Caffe Bene咖啡伴",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "Caffè Nero",
       "id": "caffenero-0d98f2",
       "locationSet": {
@@ -1194,26 +1217,6 @@
         "brand:wikidata": "Q3649598",
         "cuisine": "coffee_shop",
         "name": "Caffè Vergnano 1882",
-        "takeaway": "yes"
-      }
-    },
-    {
-      "displayName": "Caffebene咖啡伴",
-      "id": "caffebene-7d270d",
-      "locationSet": {"include": ["tw"]},
-      "matchNames": ["咖啡伴"],
-      "tags": {
-        "amenity": "cafe",
-        "brand": "Caffebene",
-        "brand:en": "Caffé Bene",
-        "brand:ko": "카페베네",
-        "brand:wikidata": "Q5017149",
-        "brand:zh": "Caffebene",
-        "cuisine": "coffee_shop",
-        "name": "Caffebene咖啡伴",
-        "name:en": "Caffé Bene",
-        "name:ko": "카페베네",
-        "name:zh": "Caffebene咖啡伴",
         "takeaway": "yes"
       }
     },
@@ -1315,9 +1318,14 @@
     },
     {
       "displayName": "Chagee",
-      "id": "chagee-c961b9",
+      "id": "chagee-5936ed",
       "locationSet": {
-        "include": ["my", "sg", "us-ca.geojson"]
+        "include": [
+          "my",
+          "ph",
+          "sg",
+          "us-ca.geojson"
+        ]
       },
       "tags": {
         "amenity": "cafe",
@@ -1419,6 +1427,19 @@
         "brand:wikidata": "Q119154445",
         "cuisine": "coffee_shop",
         "name": "ChaTraMue",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Cheirin Bão",
+      "id": "cheirinbao-1d07e0",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Cheirin Bão",
+        "brand:wikidata": "Q140672648",
+        "cuisine": "coffee_shop",
+        "name": "Cheirin Bão",
         "takeaway": "yes"
       }
     },
@@ -4722,9 +4743,9 @@
     },
     {
       "displayName": "The Alley",
-      "id": "thealley-f1575c",
+      "id": "thealley-c6a8af",
       "locationSet": {
-        "include": ["hk", "mo", "us"]
+        "include": ["hk", "mo", "ph", "us"]
       },
       "tags": {
         "amenity": "cafe",
@@ -6378,23 +6399,6 @@
         "name": "카페드롭탑",
         "name:en": "Cafe Droptop",
         "name:ko": "카페드롭탑",
-        "takeaway": "yes"
-      }
-    },
-    {
-      "displayName": "카페베네",
-      "id": "caffebene-77c68b",
-      "locationSet": {"include": ["kr"]},
-      "tags": {
-        "amenity": "cafe",
-        "brand": "카페베네",
-        "brand:en": "Caffé Bene",
-        "brand:ko": "카페베네",
-        "brand:wikidata": "Q5017149",
-        "cuisine": "coffee_shop",
-        "name": "카페베네",
-        "name:en": "Caffé Bene",
-        "name:ko": "카페베네",
         "takeaway": "yes"
       }
     },

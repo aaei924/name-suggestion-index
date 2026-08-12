@@ -2811,6 +2811,7 @@
       "displayName": "Eurospar",
       "id": "eurospar-4b5e11",
       "locationSet": {"include": ["150"]},
+      "matchNames": ["spar"],
       "tags": {
         "brand": "Eurospar",
         "brand:wikidata": "Q12309283",
@@ -3731,6 +3732,19 @@
       }
     },
     {
+      "displayName": "Handlar'n",
+      "id": "handlarn-c57afb",
+      "locationSet": {"include": ["se"]},
+      "matchTags": ["shop/convenience"],
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Handlar'n",
+        "brand:wikidata": "Q10517161",
+        "name": "Handlar'n",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "Hannaford",
       "id": "hannaford-dde59d",
       "locationSet": {"include": ["us"]},
@@ -4343,6 +4357,7 @@
       "displayName": "K-Supermarket",
       "id": "ksupermarket-46d3b7",
       "locationSet": {"include": ["fi"]},
+      "preserveTags": ["^name"],
       "tags": {
         "brand": "K-Supermarket",
         "brand:wikidata": "Q5408668",
@@ -5055,11 +5070,8 @@
     },
     {
       "displayName": "M&S Foodhall",
-      "id": "mandsfoodhall-3c0448",
-      "locationSet": {
-        "include": ["001"],
-        "exclude": ["us"]
-      },
+      "id": "mandsfoodhall-b7087f",
+      "locationSet": {"include": ["gb", "ie"]},
       "matchNames": ["marks & spencer foodhall"],
       "tags": {
         "brand": "Marks & Spencer",
@@ -5071,11 +5083,8 @@
     },
     {
       "displayName": "M&S Simply Food",
-      "id": "mandssimplyfood-3c0448",
-      "locationSet": {
-        "include": ["001"],
-        "exclude": ["us"]
-      },
+      "id": "mandssimplyfood-a8278b",
+      "locationSet": {"include": ["gb"]},
       "matchNames": [
         "marks & spencer simply food"
       ],
@@ -5432,6 +5441,19 @@
       "tags": {
         "brand": "Matkroken",
         "brand:wikidata": "Q11988679",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "Matöppet",
+      "id": "matoppet-c57afb",
+      "locationSet": {"include": ["se"]},
+      "matchTags": ["shop/convenience"],
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Matöppet",
+        "brand:wikidata": "Q10578618",
+        "name": "Matöppet",
         "shop": "supermarket"
       }
     },
@@ -8685,6 +8707,19 @@
       }
     },
     {
+      "displayName": "Tempo (Sverige)",
+      "id": "tempo-c57afb",
+      "locationSet": {"include": ["se"]},
+      "matchTags": ["shop/convenience"],
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Tempo",
+        "brand:wikidata": "Q10692628",
+        "name": "Tempo",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "Terno",
       "id": "terno-4ccde8",
       "locationSet": {"include": ["sk"]},
@@ -8716,8 +8751,10 @@
     },
     {
       "displayName": "Tesco Extra",
-      "id": "tescoextra-1e2c58",
-      "locationSet": {"include": ["150", "my"]},
+      "id": "tescoextra-66affc",
+      "locationSet": {
+        "include": ["cz", "gb", "hu", "ie", "sk"]
+      },
       "tags": {
         "brand": "Tesco Extra",
         "brand:wikidata": "Q25172225",

@@ -563,6 +563,17 @@
       }
     },
     {
+      "displayName": "EōS Fitness",
+      "id": "eosfitness-809afb",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "EōS Fitness",
+        "brand:wikidata": "Q127770873",
+        "leisure": "fitness_centre",
+        "name": "EōS Fitness"
+      }
+    },
+    {
       "displayName": "Equinox",
       "id": "equinox-809afb",
       "locationSet": {"include": ["us"]},
@@ -903,6 +914,17 @@
       }
     },
     {
+      "displayName": "GreenTheory",
+      "id": "greentheory-fa93e0",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "GreenTheory",
+        "brand:wikidata": "Q140700799",
+        "leisure": "fitness_centre",
+        "name": "GreenTheory"
+      }
+    },
+    {
       "displayName": "High5",
       "id": "high5-6c61eb",
       "locationSet": {"include": ["de"]},
@@ -1115,6 +1137,16 @@
         "brand": "Lady Stretch",
         "leisure": "fitness_centre",
         "name": "Lady Stretch"
+      }
+    },
+    {
+      "displayName": "Let's Go Fitness",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "brand": "Let's Go Fitness",
+        "brand:wikidata": "Q141005985",
+        "leisure": "fitness_centre",
+        "name": "Let's Go Fitness"
       }
     },
     {

@@ -4233,11 +4233,11 @@
       "id": "laplace-179420",
       "locationSet": {
         "include": [
-          "aut",
-          "deu",
-          "esp",
-          "fra",
-          "idn",
+          "at",
+          "de",
+          "es",
+          "fr",
+          "id",
           "nl",
           "us"
         ]
@@ -4779,6 +4779,18 @@
       }
     },
     {
+      "displayName": "Mana Poke",
+      "id": "manapoke-ad49e6",
+      "locationSet": {"include": ["br"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mana Poke",
+        "brand:wikidata": "Q140672679",
+        "cuisine": "poke",
+        "name": "Mana Poke"
+      }
+    },
+    {
       "displayName": "Maple Street Biscuit Company",
       "id": "maplestreetbiscuitcompany-d344e2",
       "locationSet": {
@@ -5284,6 +5296,29 @@
         "brand:wikidata": "Q17022303",
         "cuisine": "seafood",
         "name": "Mo's"
+      }
+    },
+    {
+      "displayName": "Modern Market",
+      "id": "modernmarket-96af40",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Modern Market",
+        "brand:wikidata": "Q123370165",
+        "name": "Modern Market"
+      }
+    },
+    {
+      "displayName": "Mongelli",
+      "id": "mongelli-47e37e",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Mongelli",
+        "brand:wikidata": "Q140773492",
+        "cuisine": "pizza",
+        "name": "Mongelli"
       }
     },
     {
@@ -6311,10 +6346,10 @@
     },
     {
       "displayName": "Pizza Hut",
-      "id": "pizzahut-ce6bab",
+      "id": "pizzahut-03f000",
       "locationSet": {
         "include": ["001"],
-        "exclude": ["cn", "tw"]
+        "exclude": ["cn", "kr", "tw"]
       },
       "tags": {
         "amenity": "restaurant",

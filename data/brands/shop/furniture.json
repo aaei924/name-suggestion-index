@@ -1573,6 +1573,17 @@
       }
     },
     {
+      "displayName": "Natuzzi Italia",
+      "id": "natuzziitalia-12c613",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Natuzzi",
+        "brand:wikidata": "Q3873359",
+        "name": "Natuzzi Italia",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "NCF Living",
       "id": "ncfliving-5a41a5",
       "locationSet": {"include": ["gb"]},
@@ -2184,6 +2195,18 @@
         "brand": "Tuco",
         "brand:wikidata": "Q136669143",
         "name": "Tuco",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "UFO Furniture",
+      "id": "ufo-4d9761",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "UFO Furniture",
+        "brand:wikidata": "Q140698439",
+        "full_name": "United Furniture Outlets",
+        "name": "UFO",
         "shop": "furniture"
       }
     },

@@ -1,15 +1,16 @@
 import { $ } from 'bun';
 import LocationConflation from '@rapideditor/location-conflation';
-import XMLBuilder from 'fast-xml-builder';
 import stringify from 'json-stringify-pretty-compact';
 import { styleText } from 'node:util';
+import XMLBuilder from 'fast-xml-builder';
 
 import { fileTree } from '../lib/file_tree.ts';
 import { buildIDPresets } from '../lib/presets_id.ts';
 import { buildJOSMPresets } from '../lib/presets_josm.ts';
 
-import type { XmlBuilderOptions } from 'fast-xml-builder';
+import type { Presets } from '@openstreetmap/id-tagging-schema';
 import type { NsiCache, NsiData, NsiDissolved, NsiJSON, NsiPath, NsiWikidataJSON, TaginfoItem, TaginfoJSON } from '../lib/types.ts';
+import type { XmlBuilderOptions } from 'fast-xml-builder';
 
 const withLocale = new Intl.Collator('en-US').compare;  // specify 'en-US' for stable sorting
 
@@ -42,7 +43,7 @@ const wikidata = wikidataJSON.wikidata;
 
 // iD's presets which we will build on
 const presetsFile = './node_modules/@openstreetmap/id-tagging-schema/dist/presets.json';
-const presetsJSON = await Bun.file(presetsFile).json();
+const presetsJSON: Presets = await Bun.file(presetsFile).json();
 
 // We use LocationConflation for validating and processing the locationSets
 const _loco = new LocationConflation(featureCollectionJSON);
@@ -131,7 +132,7 @@ async function updateVersion() {
  * Build iD editor presets from NSI data and write to `./dist/presets/nsi-id-presets.json`.
  * @see https://github.com/openstreetmap/id-tagging-schema
  */
-async function writeIDPresets() {
+function writeIDPresets() {
   const result = buildIDPresets(_nsi.path, {
     sourcePresets: presetsJSON,
     wikidata: wikidata,
@@ -144,9 +145,9 @@ async function writeIDPresets() {
       console.log(`* no iD source preset found for ${tkv}`);
     }
   }
-
-  const output = { presets: result.presets };
-  await Bun.write('./dist/presets/nsi-id-presets.json', stringify(output) + '\n');
+  // These files have grown too big - see NSI#12465
+  // const output = { presets: result.presets };
+  // await Bun.write('./dist/presets/nsi-id-presets.json', stringify(output) + '\n');
 }
 
 

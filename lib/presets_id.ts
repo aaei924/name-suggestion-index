@@ -1,15 +1,7 @@
 import { sortObject } from './sort_object.ts';
 
-import type {
-  DissolvedMap,
-  NsiData,
-  NsiPath,
-  NsiTree,
-  NsiTreeProperties,
-  OsmTags,
-  IDPreset,
-  WikidataMap
-} from './types.ts';
+import type { Preset, Presets } from '@openstreetmap/id-tagging-schema';
+import type { DissolvedMap, NsiData, NsiPath, NsiTree, NsiTreeProperties, OsmTags, IDPreset, WikidataMap } from './types.ts';
 
 const withLocale = new Intl.Collator('en-US').compare;  // specify 'en-US' for stable sorting
 
@@ -21,7 +13,7 @@ const trees: Record<NsiTree, NsiTreeProperties> = treesJSON.trees;
 /** Options for {@link buildIDPresets}. */
 export interface BuildIDPresetsOptions {
   /** The id-tagging-schema source presets dictionary (the `presets` field of `presets.json`). */
-  sourcePresets: Record<string, IDPreset>;
+  sourcePresets: Presets;
   /** Map of QID → wikidata info, used to source preset `imageURL` values. */
   wikidata?: WikidataMap;
   /** Map of NSI item id → dissolved record. Items present here become non-searchable. */
@@ -34,6 +26,14 @@ export interface BuildIDPresetsResult {
   presets: Record<string, IDPreset>;
   /** Sorted list of NSI `tree/key/value` paths for which no source iD preset was found. */
   missing: NsiPath[];
+}
+
+/** Result of {@link pickBestChildPreset}. */
+export interface PickBestChildPresetResult {
+  /** The selected PresetID, if any */
+  presetID?: string;
+  /** The selected Preset, if any */
+  preset?: Preset;
 }
 
 
@@ -70,7 +70,15 @@ const preferCommons: Record<string, boolean> = {
 };
 
 
-/** Resolves the iD preset path to look under for a given NSI tkv. */
+/**
+ * Resolves the iD preset path to search under for a given NSI path.
+ * @param tkv - The NSI `tree/key/value` path
+ * @param k - The OSM key
+ * @param v - The OSM value
+ * @param kv - The combined `key/value` string
+ * @param ferryIndex - Counter for the ferry presets: 0 → `type/route/ferry` (relation), 1 → `route/ferry` (way)
+ * @returns The iD preset path string to search under
+ */
 function resolvePresetPath(tkv: NsiPath, k: string, v: string, kv: string, ferryIndex: number): string {
   if (tkv === 'transit/route/ferry') {
     return ferryIndex === 0 ? 'type/route/ferry' : 'route/ferry';
@@ -80,11 +88,13 @@ function resolvePresetPath(tkv: NsiPath, k: string, v: string, kv: string, ferry
 }
 
 
-/** Picks the most specific iD preset matching an NSI item's tags. */
-function pickBestChildPreset(
-  childPresets: Map<string, IDPreset>,
-  tags: OsmTags
-): { presetID?: string; preset?: IDPreset } {
+/**
+ * Picks the most specific iD preset matching an NSI item's tags.
+ * @param childPresets - Map of presetID → Preset for all candidates under the resolved path
+ * @param tags - The OSM tags of the NSI item
+ * @returns The best-matching presetID and Preset, or an empty object if none matched
+ */
+function pickBestChildPreset(childPresets: Map<string, Preset>, tags: OsmTags): PickBestChildPresetResult {
   if (childPresets.size === 0) return {};
 
   if (childPresets.size === 1) {
@@ -97,7 +107,7 @@ function pickBestChildPreset(
   let matchTagsCount = 0;
   let matchSemicolonRating = 0;
   let matchPresetPath: string | undefined;
-  let matchPreset: IDPreset | undefined;
+  let matchPreset: Preset | undefined;
 
   for (const [checkPresetPath, checkPreset] of childPresets) {
     const checkPresetTags = Object.entries(checkPreset.tags as OsmTags);
@@ -139,7 +149,13 @@ function pickBestChildPreset(
 }
 
 
-/** Picks a logo URL from wikidata for a given QID. */
+/**
+ * Picks a logo URL from wikidata for a given QID.  We generally prefer to use the Facebook
+ * account's avatar url as the logo, unless the QID appears in the `preferCommons` object.
+ * @param qid - The Wikidata QID (e.g. `'Q177054'`)
+ * @param wikidata - Map of QID → wikidata info containing logo URLs
+ * @returns The logo URL string, or `undefined` if none is available
+ */
 function pickLogoURL(qid: string, wikidata: WikidataMap): string | undefined {
   const logoURLs = wikidata[qid] && wikidata[qid].logos;
   if (!logoURLs) return undefined;
@@ -151,6 +167,11 @@ function pickLogoURL(qid: string, wikidata: WikidataMap): string | undefined {
 
 /**
  * Collects search terms for an NSI item — its matchNames plus name-like tag values.
+ * @param item - NSI item with optional `matchNames` and `tags`
+ * @param primaryName - Regex matching primary name-like OSM keys (e.g. `name`, `brand`)
+ * @param alternateName - Regex matching alternate name-like OSM keys (e.g. `alt_name`)
+ * @param notName - Regex matching OSM key suffixes that are not name-like (e.g. `:type`, `:wikidata`)
+ * @returns Set of lowercase search terms derived from the item
  */
 function collectTerms(
   item: { matchNames?: string[]; tags: OsmTags },
@@ -160,7 +181,7 @@ function collectTerms(
 ): Set<string> {
   const terms = new Set(item.matchNames || []);
   for (const osmkey of Object.keys(item.tags)) {
-    if (osmkey === 'name') continue;      // exclude `name` tag, as iD prioritizes it above `preset.terms` already
+    if (osmkey === 'name') continue;      // Can exclude the `name` tag, as iD prioritizes it above `preset.terms` already
     if (notName.test(osmkey)) continue;   // osmkey is not a namelike tag, skip
     if (primaryName.test(osmkey) || alternateName.test(osmkey)) {
       terms.add(item.tags[osmkey].toLowerCase());
@@ -171,18 +192,27 @@ function collectTerms(
 
 
 /**
- * Returns the `fields` array for an NSI preset when `^name` is being preserved,
- * or `undefined` otherwise.
+ * Returns the `fields` array for an NSI preset when `^name` is being preserved.
  *
  * If we're preserving the `name` tag, make sure both "name" and "brand"/"operator"
  * fields are shown.  This triggers iD to lock the brand/operator field but allow
  * edits to the "name" field.
+ * @param t - The NSI tree name (e.g. 'brands', 'operators')
+ * @param preset - The source iD preset, optionally carrying an `originalFields` list
+ * @param preserveTags - Tag patterns being preserved for this item (e.g. `['^name']`)
+ * @returns The `fields` array to use on the generated NSI preset
  */
-function buildFields(t: string, presetID: string, preserveTags: string[]): string[] | undefined {
-  if (!preserveTags.some(s => s === '^name')) return undefined;
-  if (t === 'brands')    return ['name', 'brand', `{${presetID}}`];
-  if (t === 'operators') return ['name', 'operator', `{${presetID}}`];
-  return undefined;
+function buildFields(t: string, preset: Preset & { originalFields?: string[] }, preserveTags: string[]): string[] {
+  // `originalFields` is a workaround for an iD bug, see iD#12610
+  // We'll prefer it over `fields` to be backwards compatible with old versions
+  // of iD (released between May 2026 and July 2026). This can eventually be
+  // removed once there is no one using these old versions of iD.
+  const fields = preset.originalFields || preset.fields || [];
+
+  if (!preserveTags.some(s => s === '^name')) return fields;
+  if (t === 'brands')    return ['name', 'brand', ...fields];
+  if (t === 'operators') return ['name', 'operator', ...fields];
+  return fields;
 }
 
 
@@ -246,7 +276,7 @@ export function buildIDPresets(data: NsiData, opts: BuildIDPresetsOptions): Buil
   // - NSI identifiers will not collide with the preset identifiers (NSI ids don't look like tag values)
   //
 
-  const targetPresets: Record<string, IDPreset> = {};
+  const targetPresets: Record<string, Preset> = {};
   const missing = new Set<string>();
   const paths = Object.keys(data);
 
@@ -287,7 +317,7 @@ export function buildIDPresets(data: NsiData, opts: BuildIDPresetsOptions): Buil
     const notName = /:(colour|type|left|right|etymology|pronunciation|wikipedia|wikidata)$/i;
 
     // Look for iD presets that would fit this NSI presetPath.
-    const childPresets = new Map<string, IDPreset>();
+    const childPresets = new Map<string, Preset>();
     for (const checkPath in sourcePresets) {
       if (checkPath.startsWith(presetPath)) {
         childPresets.set(checkPath, sourcePresets[checkPath]);
@@ -325,20 +355,22 @@ export function buildIDPresets(data: NsiData, opts: BuildIDPresetsOptions): Buil
       const logoURL = pickLogoURL(qid, wikidata);
 
       const preserveTags = item.preserveTags || properties.preserveTags || [];
-      const fields = buildFields(t, presetID!, preserveTags);
 
-      const targetPreset = {
+      const targetPreset: IDPreset = {
         name:         item.displayName,
-        locationSet:  item.locationSet,
-        icon:         preset.icon,
+        locationSet:  item.locationSet as {} & IDPreset['locationSet'],
+        icon:         preset.icon!,
         geometry:     preset.geometry,
+        fields:       buildFields(t, preset, preserveTags),
+        moreFields:   preset.moreFields || [],
+        tags:         sortObject(targetTags),
         matchScore:   2
-      } as IDPreset;
+      };
 
       if (logoURL)             targetPreset.imageURL = logoURL;
       if (terms.size)          targetPreset.terms = Array.from(terms).sort(withLocale);
-      if (fields)              targetPreset.fields = fields;
       if (preset.reference)    targetPreset.reference = preset.reference;
+      if (preset.relation)     targetPreset.relation = preset.relation;
       if (dissolved[item.id])  targetPreset.searchable = false;  // dissolved/closed businesses
       if (preserveTags.length) targetPreset.preserveTags = preserveTags; // see NSI#10083
 

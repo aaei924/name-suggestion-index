@@ -1179,6 +1179,25 @@
       }
     },
     {
+      "displayName": "Krajowa Administracja Skarbowa",
+      "id": "krajowaadministracjaskarbowa-995fc9",
+      "locationSet": {"include": ["pl"]},
+      "matchNames": [
+        "oddział celny",
+        "urząd celno-skarbowy, izba celna",
+        "urząd celny",
+        "urząd skarbowy",
+        "us"
+      ],
+      "tags": {
+        "office": "government",
+        "operator": "Krajowa Administracja Skarbowa",
+        "operator:short": "KAS",
+        "operator:type": "government",
+        "operator:wikidata": "Q30904637"
+      }
+    },
+    {
       "displayName": "LADWP",
       "id": "losangelesdepartmentofwaterandpower-2a14ff",
       "locationSet": {
@@ -1932,6 +1951,22 @@
       }
     },
     {
+      "displayName": "Service NSW",
+      "id": "servicensw-f828a7",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "brand": "Service NSW",
+        "brand:wikidata": "Q29324815",
+        "government": "public_service",
+        "office": "government",
+        "operator": "Service NSW",
+        "operator:type": "government",
+        "operator:wikidata": "Q29324815"
+      }
+    },
+    {
       "displayName": "ServiceOntario",
       "id": "serviceontario-a69e09",
       "locationSet": {
@@ -1996,6 +2031,7 @@
       "locationSet": {"include": ["za"]},
       "preserveTags": ["^name", "^short_name"],
       "tags": {
+        "government": "tax",
         "name": "South African Revenue Service",
         "office": "government",
         "operator": "South African Revenue Service",
@@ -2068,6 +2104,22 @@
         "office": "government",
         "operator": "Stadt Neuss",
         "operator:wikidata": "Q2948"
+      }
+    },
+    {
+      "displayName": "Straż Graniczna",
+      "id": "strazgraniczna-995fc9",
+      "locationSet": {"include": ["pl"]},
+      "matchNames": [
+        "placówka straży granicznej",
+        "sg"
+      ],
+      "tags": {
+        "government": "border_control",
+        "office": "government",
+        "operator": "Straż Graniczna",
+        "operator:type": "government",
+        "operator:wikidata": "Q4944572"
       }
     },
     {

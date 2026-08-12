@@ -963,15 +963,20 @@
       }
     },
     {
-      "displayName": "Vianova eG",
-      "id": "vianovaeg-ff72fb",
+      "displayName": "Vianova",
+      "id": "vianova-bce23b",
       "locationSet": {
-        "include": ["de-bw.geojson"]
+        "include": [
+          "de-bw.geojson",
+          "de-rp.geojson"
+        ]
       },
+      "matchNames": ["vianova eg"],
       "tags": {
         "amenity": "car_sharing",
-        "operator": "Vianova eG",
-        "operator:type": "private"
+        "operator": "Vianova",
+        "operator:type": "cooperative",
+        "operator:wikidata": "Q130872779"
       }
     },
     {

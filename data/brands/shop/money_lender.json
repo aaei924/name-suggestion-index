@@ -365,6 +365,19 @@
       }
     },
     {
+      "displayName": "My Credit",
+      "id": "mycredit-937eaf",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "brand": "My Credit",
+        "brand:wikidata": "Q140791638",
+        "name": "My Credit",
+        "name:bg": "Моят кредит",
+        "name:en": "My Credit",
+        "shop": "money_lender"
+      }
+    },
+    {
       "displayName": "OneMain Financial",
       "id": "onemainfinancial-f9c954",
       "locationSet": {"include": ["us"]},
@@ -540,6 +553,19 @@
       "tags": {
         "brand": "Акс Финанс",
         "name": "Акс Финанс",
+        "shop": "money_lender"
+      }
+    },
+    {
+      "displayName": "Алфиа кредит",
+      "id": "allphiacredit-937eaf",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "brand": "Алфиа кредит",
+        "brand:wikidata": "Q140791638",
+        "name": "Алфиа кредит",
+        "name:bg": "Алфиа кредит",
+        "name:en": "Allphia Credit",
         "shop": "money_lender"
       }
     },

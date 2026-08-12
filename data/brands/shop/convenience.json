@@ -2705,19 +2705,6 @@
       }
     },
     {
-      "displayName": "Handlar'n",
-      "id": "handlarn-f5adeb",
-      "locationSet": {"include": ["se"]},
-      "matchTags": ["shop/supermarket"],
-      "preserveTags": ["^name"],
-      "tags": {
-        "brand": "Handlar'n",
-        "brand:wikidata": "Q10517161",
-        "name": "Handlar'n",
-        "shop": "convenience"
-      }
-    },
-    {
       "displayName": "Hasty Market",
       "id": "hastymarket-eea72f",
       "locationSet": {"include": ["ca"]},
@@ -3081,6 +3068,19 @@
         "brand": "Joe's Kwik Marts",
         "brand:wikidata": "Q109871144",
         "name": "Joe's Kwik Marts",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "k kiosk",
+      "id": "kkiosk-e34768",
+      "locationSet": {
+        "include": ["ch", "de", "li", "lu"]
+      },
+      "tags": {
+        "brand": "k kiosk",
+        "brand:wikidata": "Q60381703",
+        "name": "k kiosk",
         "shop": "convenience"
       }
     },
@@ -3775,19 +3775,6 @@
         "name": "masymas basic",
         "operator": "Juan Fornés Fornés S.A.",
         "operator:wikidata": "Q6135987",
-        "shop": "convenience"
-      }
-    },
-    {
-      "displayName": "Matöppet",
-      "id": "matoppet-f5adeb",
-      "locationSet": {"include": ["se"]},
-      "matchTags": ["shop/supermarket"],
-      "preserveTags": ["^name"],
-      "tags": {
-        "brand": "Matöppet",
-        "brand:wikidata": "Q10578618",
-        "name": "Matöppet",
         "shop": "convenience"
       }
     },
@@ -4723,6 +4710,17 @@
         "brand": "Patanjali Ayurved",
         "brand:wikidata": "Q19856023",
         "name": "Patanjali Store",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Pavilion 24",
+      "id": "pavilion24-854be4",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "brand": "Pavilion 24",
+        "brand:wikidata": "Q140798080",
+        "name": "Pavilion 24",
         "shop": "convenience"
       }
     },
@@ -5949,19 +5947,6 @@
       "tags": {
         "brand": "Tempo",
         "brand:wikidata": "Q52851660",
-        "name": "Tempo",
-        "shop": "convenience"
-      }
-    },
-    {
-      "displayName": "Tempo (Sverige)",
-      "id": "tempo-f5adeb",
-      "locationSet": {"include": ["se"]},
-      "matchTags": ["shop/supermarket"],
-      "preserveTags": ["^name"],
-      "tags": {
-        "brand": "Tempo",
-        "brand:wikidata": "Q10692628",
         "name": "Tempo",
         "shop": "convenience"
       }

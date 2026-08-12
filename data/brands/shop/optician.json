@@ -410,12 +410,13 @@
     },
     {
       "displayName": "Fielmann",
-      "id": "fielmann-f932c9",
+      "id": "fielmann-eb871f",
       "locationSet": {
         "include": [
           "at",
           "by",
           "ch",
+          "cz",
           "de",
           "it",
           "lt",
@@ -770,6 +771,18 @@
         "brand": "McOptic",
         "brand:wikidata": "Q1915328",
         "name": "McOptic",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Mellins",
+      "id": "mellins-e98572",
+      "locationSet": {"include": ["za"]},
+      "matchNames": ["mellins i.style"],
+      "tags": {
+        "brand": "Mellins",
+        "brand:wikidata": "Q140695860",
+        "name": "Mellins",
         "shop": "optician"
       }
     },
@@ -1223,12 +1236,11 @@
     },
     {
       "displayName": "Ray-Ban",
-      "id": "rayban-ace229",
+      "id": "rayban-58de3f",
       "locationSet": {
         "include": [
           "ae",
           "at",
-          "au",
           "br",
           "ca",
           "de",
@@ -1492,6 +1504,26 @@
         "brand": "Thiele",
         "brand:wikidata": "Q12339176",
         "name": "Thiele",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Torga Optical",
+      "id": "torgaoptical-7d9017",
+      "locationSet": {
+        "include": [
+          "au",
+          "ie",
+          "ls",
+          "na",
+          "sz",
+          "za"
+        ]
+      },
+      "tags": {
+        "brand": "Torga Optical",
+        "brand:wikidata": "Q140698453",
+        "name": "Torga Optical",
         "shop": "optician"
       }
     },
