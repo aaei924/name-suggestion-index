@@ -1572,6 +1572,18 @@
       }
     },
     {
+      "displayName": "Watermill Express",
+      "id": "watermillexpress-7e3927",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Watermill Express",
+        "brand:wikidata": "Q126195259",
+        "name": "Watermill Express",
+        "vending": "water"
+      }
+    },
+    {
       "displayName": "yamakyu",
       "id": "yamakyu-bf11a2",
       "locationSet": {"include": ["jp"]},

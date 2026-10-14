@@ -57,8 +57,10 @@
     },
     {
       "displayName": "Ange",
-      "id": "boulangerieange-731a34",
-      "locationSet": {"include": ["fr"]},
+      "id": "boulangerieange-8d5c0d",
+      "locationSet": {
+        "include": ["ca-qc.geojson", "fr"]
+      },
       "tags": {
         "brand": "Ange",
         "brand:wikidata": "Q98383422",
@@ -180,6 +182,23 @@
       }
     },
     {
+      "displayName": "Bäckerei Behrens-Meyer",
+      "id": "backereibehrensmeyer-79003d",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "matchNames": [
+        "bäcker behrens-meyer",
+        "behrens-meyer"
+      ],
+      "tags": {
+        "brand": "Bäckerei Behrens-Meyer",
+        "brand:wikidata": "Q141345650",
+        "name": "Bäckerei Behrens-Meyer",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Bäckerei Fuchs",
       "id": "backereifuchs-3f448e",
       "locationSet": {"include": ["de"]},
@@ -188,6 +207,20 @@
         "brand": "Bäckerei Fuchs",
         "brand:wikidata": "Q42825993",
         "name": "Bäckerei Fuchs",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Bäckerei Göing",
+      "id": "backereigoing-79003d",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "matchNames": ["bäcker göing", "göing"],
+      "tags": {
+        "brand": "Bäckerei Göing",
+        "brand:wikidata": "Q141322738",
+        "name": "Bäckerei Göing",
         "shop": "bakery"
       }
     },
@@ -372,6 +405,18 @@
         "brand": "Bakers Delight",
         "brand:wikidata": "Q4849261",
         "name": "Bakers Delight",
+        "shop": "bakery"
+      }
+    },
+    {
+      "displayName": "Bakery Bakery",
+      "id": "bakerybakery-903073",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "brand": "Bakery Bakery",
+        "brand:wikidata": "Q141447459",
+        "diet:vegan": "only",
+        "name": "Bakery Bakery",
         "shop": "bakery"
       }
     },
@@ -572,8 +617,8 @@
     },
     {
       "displayName": "BreadTalk",
-      "id": "breadtalk-96a6b3",
-      "locationSet": {"include": ["sg"]},
+      "id": "breadtalk-517267",
+      "locationSet": {"include": ["ph", "sg"]},
       "tags": {
         "brand": "BreadTalk",
         "brand:wikidata": "Q1106640",
@@ -984,6 +1029,25 @@
       }
     },
     {
+      "displayName": "Familienbäckerei Musswessels",
+      "id": "familienbackereimusswessels-79003d",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "matchNames": [
+        "backer musswessels",
+        "bäckerei musswessels",
+        "familienbäcker musswessels",
+        "musswessels"
+      ],
+      "tags": {
+        "brand": "Familienbäckerei Musswessels",
+        "brand:wikidata": "Q141345609",
+        "name": "Familienbäckerei Musswessels",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Familijna",
       "id": "familijna-839c38",
       "locationSet": {"include": ["pl"]},
@@ -1229,6 +1293,23 @@
       }
     },
     {
+      "displayName": "Heide Bäckerei Meyer",
+      "id": "heidebackereimeyer-79003d",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "matchNames": [
+        "bäckerei meyer",
+        "heide bäcker meyer"
+      ],
+      "tags": {
+        "brand": "Heide Bäckerei Meyer",
+        "brand:wikidata": "Q141281754",
+        "name": "Heide Bäckerei Meyer",
+        "shop": "bakery"
+      }
+    },
+    {
       "displayName": "Helbing",
       "id": "helbing-3f448e",
       "locationSet": {"include": ["de"]},
@@ -1411,12 +1492,10 @@
     },
     {
       "displayName": "K&U Bäckerei",
-      "id": "kandubackerei-3f448e",
-      "locationSet": {"include": ["de"]},
-      "matchNames": ["k&u"],
+      "id": "kandubackerei-4f9c7f",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "brand": "K&U Bäckerei",
-        "brand:wikidata": "Q1719433",
         "name": "K&U Bäckerei",
         "shop": "bakery"
       }

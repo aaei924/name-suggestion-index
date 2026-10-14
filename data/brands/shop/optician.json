@@ -361,6 +361,19 @@
       }
     },
     {
+      "displayName": "EO Executive Optical",
+      "id": "eoexecutiveoptical-cafbe0",
+      "locationSet": {"include": ["ph"]},
+      "tags": {
+        "alt_name": "Executive Optical",
+        "brand": "EO Executive Optical",
+        "brand:wikidata": "Q141542633",
+        "name": "EO Executive Optical",
+        "shop": "optician",
+        "short_name": "EO"
+      }
+    },
+    {
       "displayName": "Europtica",
       "id": "europtica-61fd57",
       "locationSet": {"include": ["ar"]},
@@ -405,6 +418,31 @@
         "brand": "eyes + more",
         "brand:wikidata": "Q1385775",
         "name": "eyes + more",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "eyewa",
+      "id": "eyewa-e7f237",
+      "locationSet": {
+        "include": [
+          "ae",
+          "bh",
+          "kw",
+          "om",
+          "qa",
+          "sa"
+        ]
+      },
+      "matchNames": ["ايوا"],
+      "tags": {
+        "brand": "eyewa",
+        "brand:ar": "أيوا",
+        "brand:en": "eyewa",
+        "brand:wikidata": "Q141129902",
+        "name": "eyewa",
+        "name:ar": "أيوا",
+        "name:en": "eyewa",
         "shop": "optician"
       }
     },
@@ -729,6 +767,17 @@
       }
     },
     {
+      "displayName": "Lunettes Pour Tous",
+      "id": "lunettespourtous-648011",
+      "locationSet": {"include": ["be", "fx"]},
+      "tags": {
+        "brand": "Lunettes Pour Tous",
+        "brand:wikidata": "Q60964944",
+        "name": "Lunettes Pour Tous",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "Lynx Optique",
       "id": "lynxoptique-8cd79e",
       "locationSet": {"include": ["fr"]},
@@ -859,6 +908,17 @@
         "brand": "NAU!",
         "brand:wikidata": "Q122148631",
         "name": "NAU!",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Neovision",
+      "id": "neovision-e98572",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Neovision",
+        "brand:wikidata": "Q141253662",
+        "name": "Neovision",
         "shop": "optician"
       }
     },
@@ -1159,8 +1219,8 @@
     },
     {
       "displayName": "OWNDAYS",
-      "id": "owndays-b2cb2d",
-      "locationSet": {"include": ["tw"]},
+      "id": "owndays-41293c",
+      "locationSet": {"include": ["ph", "tw"]},
       "tags": {
         "brand": "OWNDAYS",
         "brand:en": "OWNDAYS",

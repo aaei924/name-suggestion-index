@@ -461,6 +461,16 @@
       }
     },
     {
+      "displayName": "Dreammedia",
+      "id": "dreammedia-b5c8c5",
+      "locationSet": {"include": ["pt"]},
+      "tags": {
+        "advertising": "billboard",
+        "operator": "Dreammedia",
+        "operator:wikidata": "Q140956057"
+      }
+    },
+    {
       "displayName": "Du Curtil Publicité",
       "id": "ducurtilpublicite-28ca1f",
       "locationSet": {"include": ["fx"]},

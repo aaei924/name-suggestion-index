@@ -1141,6 +1141,7 @@
     },
     {
       "displayName": "Let's Go Fitness",
+      "id": "letsgofitness-2831bb",
       "locationSet": {"include": ["ch"]},
       "tags": {
         "brand": "Let's Go Fitness",
@@ -1284,6 +1285,20 @@
         "brand:wikidata": "Q7068711",
         "leisure": "fitness_centre",
         "name": "Nuffield Health Fitness & Wellbeing"
+      }
+    },
+    {
+      "displayName": "On Air",
+      "id": "onair-b63def",
+      "locationSet": {
+        "include": ["es", "fr", "ma", "pt"]
+      },
+      "matchNames": ["on air fitness"],
+      "tags": {
+        "brand": "On Air",
+        "brand:wikidata": "Q138313370",
+        "leisure": "fitness_centre",
+        "name": "On Air"
       }
     },
     {

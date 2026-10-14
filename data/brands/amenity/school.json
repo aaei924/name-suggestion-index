@@ -50,6 +50,17 @@
       }
     },
     {
+      "displayName": "Braeburn Schools",
+      "id": "braeburnschools-aee75b",
+      "locationSet": {"include": ["ke"]},
+      "tags": {
+        "amenity": "school",
+        "brand": "Braeburn Schools",
+        "brand:wikidata": "Q4955304",
+        "name": "Braeburn Schools"
+      }
+    },
+    {
       "displayName": "Doğa Koleji",
       "id": "dogakoleji-8696da",
       "locationSet": {"include": ["tr"]},

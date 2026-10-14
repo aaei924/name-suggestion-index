@@ -10,6 +10,19 @@
   },
   "items": [
     {
+      "displayName": "4℃",
+      "id": "092279-36e4b3",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "brand": "4℃",
+        "brand:ja": "ヨンドシー",
+        "brand:wikidata": "Q61055700",
+        "name": "4℃",
+        "name:ja": "ヨンドシー",
+        "shop": "jewelry"
+      }
+    },
+    {
       "displayName": "585 Gold",
       "id": "585gold-a038d2",
       "locationSet": {"include": ["001"]},
@@ -938,8 +951,8 @@
     },
     {
       "displayName": "Marc Orian",
-      "id": "marcorian-381def",
-      "locationSet": {"include": ["fx"]},
+      "id": "marcorian-1d7974",
+      "locationSet": {"include": ["be", "fx"]},
       "tags": {
         "brand": "Marc Orian",
         "brand:wikidata": "Q99848767",
@@ -1250,6 +1263,17 @@
         "brand:wikidata": "Q13117711",
         "name": "Tanishq",
         "name:en": "Tanishq",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "displayName": "Teilor",
+      "id": "teilor-845201",
+      "locationSet": {"include": ["bg", "ro"]},
+      "tags": {
+        "brand": "Teilor",
+        "brand:wikidata": "Q115773344",
+        "name": "Teilor",
         "shop": "jewelry"
       }
     },

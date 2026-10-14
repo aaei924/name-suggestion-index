@@ -356,15 +356,13 @@
     },
     {
       "displayName": "Záložňa Breva",
-      "id": "zaloznabreva-504b45",
-      "locationSet": {"include": ["cz", "sk"]},
+      "id": "zaloznabreva-73b22a",
+      "locationSet": {"include": ["sk"]},
       "matchNames": ["breva"],
       "tags": {
         "brand": "Záložňa Breva",
         "brand:wikidata": "Q108371754",
         "name": "Záložňa Breva",
-        "name:cs": "Zastavárna Index",
-        "name:sk": "Záložňa Breva",
         "shop": "pawnbroker"
       }
     },

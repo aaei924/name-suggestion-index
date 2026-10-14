@@ -255,10 +255,22 @@
     },
     {
       "displayName": "Cavavin",
-      "id": "cavavin-99d8dc",
-      "locationSet": {"include": ["fr"]},
+      "id": "cavavin-fb34ab",
+      "locationSet": {
+        "include": [
+          "be",
+          "cd",
+          "cg",
+          "fr",
+          "gb",
+          "ie",
+          "ma",
+          "nl"
+        ]
+      },
       "tags": {
         "brand": "Cavavin",
+        "brand:wikidata": "Q36017956",
         "name": "Cavavin",
         "shop": "alcohol"
       }

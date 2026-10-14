@@ -3447,6 +3447,18 @@
       }
     },
     {
+      "displayName": "Banque Michel Inchauspé",
+      "id": "banquemichelinchauspe-ad79d4",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "Banque Michel Inchauspé",
+        "brand:wikidata": "Q99647022",
+        "name": "Banque Michel Inchauspé",
+        "short_name": "BAMI"
+      }
+    },
+    {
       "displayName": "Banque Misr",
       "id": "banquemisr-bbd826",
       "locationSet": {"include": ["eg"]},
@@ -5358,8 +5370,14 @@
       "tags": {
         "amenity": "bank",
         "brand": "Central Bank of India",
+        "brand:en": "Central Bank of India",
+        "brand:hi": "सेन्ट्रल बैंक ऑफ़ इंडिया",
+        "brand:mr": "सेंट्रल बँक ऑफ़ इंडिया",
         "brand:wikidata": "Q2007090",
-        "name": "Central Bank of India"
+        "name": "Central Bank of India",
+        "name:en": "Central Bank of India",
+        "name:hi": "सेन्ट्रल बैंक ऑफ़ इंडिया",
+        "name:mr": "सेंट्रल बँक ऑफ़ इंडिया"
       }
     },
     {
@@ -6358,6 +6376,17 @@
         "brand": "ČSOB",
         "brand:wikidata": "Q340135",
         "name": "ČSOB"
+      }
+    },
+    {
+      "displayName": "ČSOB Leasing",
+      "id": "csobleasing-6a1dfb",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "amenity": "bank",
+        "brand": "ČSOB Leasing",
+        "brand:wikidata": "Q102543416",
+        "name": "ČSOB Leasing"
       }
     },
     {
@@ -8146,8 +8175,8 @@
       }
     },
     {
-      "displayName": "GT Bank",
-      "id": "gtbank-b3c39a",
+      "displayName": "GTBank",
+      "id": "gtbank-edf34c",
       "locationSet": {
         "include": [
           "ci",
@@ -8158,16 +8187,17 @@
           "lr",
           "ng",
           "rw",
+          "sl",
           "tz",
           "ug"
         ]
       },
       "tags": {
         "amenity": "bank",
-        "brand": "GT Bank",
+        "brand": "GTBank",
         "brand:wikidata": "Q579747",
-        "name": "GT Bank",
-        "official_name": "Guaranty Trust Bank"
+        "name": "GTBank",
+        "official_name": "Guaranty Trust Bank Limited"
       }
     },
     {
@@ -9781,15 +9811,21 @@
       "displayName": "Maharashtra Gramin Bank",
       "id": "maharashtragraminbank-34f411",
       "locationSet": {"include": ["in"]},
+      "matchNames": [
+        "maha gramin bank",
+        "mahagramin"
+      ],
       "tags": {
         "amenity": "bank",
         "brand": "Maharashtra Gramin Bank",
         "brand:en": "Maharashtra Gramin Bank",
         "brand:hi": "महाराष्ट्र ग्रामीण बैंक",
+        "brand:mr": "महाराष्ट्र ग्रामीण बँक",
         "brand:wikidata": "Q16915974",
         "name": "Maharashtra Gramin Bank",
         "name:en": "Maharashtra Gramin Bank",
-        "name:hi": "महाराष्ट्र ग्रामीण बैंक"
+        "name:hi": "महाराष्ट्र ग्रामीण बैंक",
+        "name:mr": "महाराष्ट्र ग्रामीण बँक"
       }
     },
     {
@@ -10150,16 +10186,17 @@
     {
       "displayName": "Moneta Bank",
       "id": "monetabank-7d13c0",
+      "issues": [12705],
       "locationSet": {"include": ["cz"]},
-      "matchNames": [
-        "moneta",
-        "moneta money bank"
-      ],
+      "matchNames": ["moneta"],
       "tags": {
         "amenity": "bank",
         "brand": "Moneta Bank",
         "brand:wikidata": "Q24282966",
-        "name": "Moneta Bank"
+        "name": "Moneta Bank",
+        "operator": "Moneta Money Bank",
+        "operator:type": "private",
+        "operator:wikidata": "Q24282966"
       }
     },
     {
@@ -13537,13 +13574,25 @@
         "include": ["001"],
         "exclude": ["bg", "cn", "pl"]
       },
-      "matchNames": ["sbi atm"],
+      "matchNames": [
+        "bhartiya state bank",
+        "sbi atm"
+      ],
       "tags": {
         "amenity": "bank",
         "brand": "State Bank of India",
+        "brand:en": "State Bank of India",
+        "brand:hi": "भारतीय स्टेट बैंक",
+        "brand:kn": "ಭಾರತೀಯ ಸ್ಟೇಟ್ ಬ್ಯಾಂಕ್",
+        "brand:mr": "भारतीय स्टेट बँक",
         "brand:wikidata": "Q1340361",
         "name": "State Bank of India",
-        "short_name": "SBI"
+        "name:en": "State Bank of India",
+        "name:hi": "भारतीय स्टेट बैंक",
+        "name:kn": "ಭಾರತೀಯ ಸ್ಟೇಟ್ ಬ್ಯಾಂಕ್",
+        "name:mr": "भारतीय स्टेट बँक",
+        "short_name": "SBI",
+        "short_name:en": "SBI"
       }
     },
     {
@@ -14377,21 +14426,8 @@
     },
     {
       "displayName": "UniCredit",
-      "id": "unicredit-d887c4",
-      "locationSet": {
-        "include": [
-          "ba",
-          "cz",
-          "hu",
-          "it",
-          "pl",
-          "ro",
-          "rs",
-          "ru",
-          "si",
-          "sk"
-        ]
-      },
+      "id": "unicredit-fe4210",
+      "locationSet": {"include": ["it", "pl"]},
       "matchNames": [
         "banco di sicilia",
         "unicredit banca",
@@ -14403,6 +14439,29 @@
         "brand": "UniCredit",
         "brand:wikidata": "Q45568",
         "name": "UniCredit"
+      }
+    },
+    {
+      "displayName": "UniCredit Bank",
+      "id": "unicreditbank-900faa",
+      "locationSet": {
+        "include": [
+          "ba",
+          "cz",
+          "hu",
+          "ro",
+          "rs",
+          "ru",
+          "si",
+          "sk"
+        ]
+      },
+      "matchNames": ["unicredit"],
+      "tags": {
+        "amenity": "bank",
+        "brand": "UniCredit Bank",
+        "brand:wikidata": "Q45568",
+        "name": "UniCredit Bank"
       }
     },
     {
@@ -15143,8 +15202,12 @@
       "tags": {
         "amenity": "bank",
         "brand": "Yes Bank",
+        "brand:en": "Yes Bank",
+        "brand:mr": "येस बँक",
         "brand:wikidata": "Q2040394",
-        "name": "Yes Bank"
+        "name": "Yes Bank",
+        "name:en": "Yes Bank",
+        "name:mr": "येस बँक"
       }
     },
     {

@@ -2994,10 +2994,7 @@
       "displayName": "Paradores",
       "id": "paradores-2bddc3",
       "locationSet": {"include": ["es", "pt"]},
-      "matchNames": [
-        "paradores de turismo de tspaña",
-        "paradores nacionales"
-      ],
+      "matchNames": ["paradores nacionales"],
       "note": "No name for Paradores's brand as each hotel is named differently.",
       "tags": {
         "brand": "Paradores",
@@ -3799,6 +3796,17 @@
       }
     },
     {
+      "displayName": "Studio 6",
+      "id": "studio6-779ccb",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Studio 6",
+        "brand:wikidata": "Q115793950",
+        "name": "Studio 6",
+        "tourism": "hotel"
+      }
+    },
+    {
       "displayName": "Suburban Studios",
       "id": "suburbanstudios-6ac210",
       "locationSet": {"include": ["us"]},
@@ -4187,6 +4195,30 @@
         "brand": "The Sebel",
         "brand:wikidata": "Q110888248",
         "name": "The Sebel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "displayName": "The Social Hub",
+      "id": "thesocialhub-92d813",
+      "locationSet": {
+        "include": [
+          "at",
+          "de",
+          "es",
+          "fx",
+          "gb",
+          "hu",
+          "it",
+          "nl",
+          "pt"
+        ]
+      },
+      "matchNames": ["the student hotel", "tsh"],
+      "tags": {
+        "brand": "The Social Hub",
+        "brand:wikidata": "Q60742778",
+        "name": "The Social Hub",
         "tourism": "hotel"
       }
     },

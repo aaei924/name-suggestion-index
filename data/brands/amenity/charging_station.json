@@ -3,10 +3,7 @@
     "path": "brands/amenity/charging_station",
     "skipCollection": true,
     "preserveTags": ["^name"],
-    "exclude": {
-      "generic": ["^charging station$"],
-      "named": ["^tesla, inc.$"]
-    }
+    "exclude": {"generic": ["^charging station$"]}
   },
   "items": [
     {
@@ -311,19 +308,6 @@
       }
     },
     {
-      "displayName": "DEI Blue",
-      "id": "deiblue-5f334c",
-      "locationSet": {"include": ["gr"]},
-      "tags": {
-        "amenity": "charging_station",
-        "brand": "DEI Blue",
-        "brand:wikidata": "Q140818654",
-        "name": "DEI Blue",
-        "operator": "Public Power Corporation SA",
-        "operator:wikidata": "Q326345"
-      }
-    },
-    {
       "displayName": "E-WALD",
       "id": "ewald-190c99",
       "locationSet": {"include": ["de"]},
@@ -503,7 +487,7 @@
     },
     {
       "displayName": "eMotion",
-      "id": "emotion-d44228",
+      "id": "emotion-abc49e",
       "locationSet": {
         "include": [
           "at",
@@ -511,15 +495,29 @@
           "cz",
           "hu",
           "ro",
-          "rs",
-          "sk"
+          "rs"
         ]
       },
       "matchNames": ["omv emotion"],
       "tags": {
         "amenity": "charging_station",
         "brand": "eMotion",
-        "brand:wikidata": "Q139071415"
+        "brand:wikidata": "Q139071415",
+        "operator": "OMV",
+        "operator:wikidata": "Q168238"
+      }
+    },
+    {
+      "displayName": "eMotion (Slovensko)",
+      "id": "emotion-8610f2",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["omv emotion"],
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "eMotion",
+        "brand:wikidata": "Q139071415",
+        "operator": "OMV Slovensko",
+        "operator:wikidata": "Q168238"
       }
     },
     {
@@ -651,6 +649,17 @@
       }
     },
     {
+      "displayName": "EVChaja",
+      "id": "evchaja-002e1b",
+      "locationSet": {"include": ["ke"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "EVChaja",
+        "brand:wikidata": "Q140930713",
+        "name": "EVChaja"
+      }
+    },
+    {
       "displayName": "EvGateway",
       "id": "evgateway-67e574",
       "locationSet": {
@@ -700,6 +709,16 @@
         "amenity": "charging_station",
         "brand": "evmapa",
         "brand:wikidata": "Q136929506"
+      }
+    },
+    {
+      "displayName": "EVPoint",
+      "id": "evpoint-59a92d",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "EVPoint",
+        "brand:wikidata": "Q130044600"
       }
     },
     {
@@ -900,7 +919,19 @@
       }
     },
     {
-      "displayName": "Innogy",
+      "displayName": "Innogy (Česko)",
+      "id": "innogy-52c83f",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "Innogy",
+        "brand:wikidata": "Q28920338",
+        "operator": "Innogy Energo",
+        "operator:wikidata": "Q54968106"
+      }
+    },
+    {
+      "displayName": "Innogy (Deutschland)",
       "id": "innogy-190c99",
       "locationSet": {"include": ["de"]},
       "matchNames": [
@@ -1495,34 +1526,25 @@
       }
     },
     {
-      "displayName": "Tesla Destination Charger",
-      "id": "tesladestinationcharger-4bd82e",
-      "locationSet": {"include": ["001"]},
-      "matchNames": ["tesla wall connector"],
-      "tags": {
-        "amenity": "charging_station",
-        "brand": "Tesla",
-        "brand:wikidata": "Q478214",
-        "name": "Tesla Destination Charger"
-      }
-    },
-    {
-      "displayName": "Tesla Supercharger",
-      "id": "teslasupercharger-4bd82e",
+      "displayName": "Tesla",
+      "id": "tesla-4bd82e",
       "locationSet": {"include": ["001"]},
       "matchNames": [
+        "tesla destination charger",
+        "tesla france sarl",
+        "tesla germany gmbh",
+        "tesla inc",
         "tesla motors",
         "tesla motors inc",
+        "tesla supercharger",
+        "tesla wall connector",
         "特斯拉超级充电桩",
         "特斯拉超级充电站"
       ],
       "tags": {
         "amenity": "charging_station",
-        "brand": "Tesla Supercharger",
-        "brand:wikidata": "Q17089620",
-        "name": "Tesla Supercharger",
-        "operator": "Tesla",
-        "operator:wikidata": "Q478214"
+        "brand": "Tesla",
+        "brand:wikidata": "Q478214"
       }
     },
     {
@@ -1699,6 +1721,20 @@
         "operator": "Západoslovenská energetika",
         "operator:short": "ZSE",
         "operator:wikidata": "Q246921"
+      }
+    },
+    {
+      "displayName": "ΔΕΗ blue",
+      "id": "3ef695-5f334c",
+      "locationSet": {"include": ["gr"]},
+      "matchNames": ["dei", "dei blue"],
+      "tags": {
+        "amenity": "charging_station",
+        "brand": "ΔΕΗ blue",
+        "brand:wikidata": "Q140818654",
+        "name": "ΔΕΗ blue",
+        "operator": "ΔΕΗ",
+        "operator:wikidata": "Q326345"
       }
     },
     {

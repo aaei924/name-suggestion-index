@@ -2350,6 +2350,22 @@
       }
     },
     {
+      "displayName": "SFM Bologna",
+      "id": "servizioferroviariometropolitanodibologna-10e4fe",
+      "locationSet": {
+        "include": [
+          "it-25.geojson",
+          "it-45.geojson"
+        ]
+      },
+      "matchNames": ["sfm bologna"],
+      "tags": {
+        "network": "Servizio ferroviario metropolitano di Bologna",
+        "network:wikidata": "Q3958100",
+        "route": "train"
+      }
+    },
+    {
       "displayName": "SJ",
       "id": "sj-ce5db4",
       "locationSet": {"include": ["se"]},

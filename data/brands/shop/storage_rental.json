@@ -143,6 +143,17 @@
       }
     },
     {
+      "displayName": "Locakase",
+      "id": "locakase-1d8b68",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Locakase",
+        "brand:wikidata": "Q141525976",
+        "name": "Locakase",
+        "shop": "storage_rental"
+      }
+    },
+    {
       "displayName": "Lok'nStore",
       "id": "loknstore-93b48c",
       "locationSet": {"include": ["gb"]},
@@ -421,6 +432,17 @@
         "brand": "Storage Rentals of America",
         "brand:wikidata": "Q120733770",
         "name": "Storage Rentals of America",
+        "shop": "storage_rental"
+      }
+    },
+    {
+      "displayName": "Storage Sense",
+      "id": "storagesense-7879a0",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Storage Sense",
+        "brand:wikidata": "Q126620207",
+        "name": "Storage Sense",
         "shop": "storage_rental"
       }
     },

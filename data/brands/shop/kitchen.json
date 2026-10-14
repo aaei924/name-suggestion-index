@@ -65,6 +65,17 @@
       }
     },
     {
+      "displayName": "Ecocuisine",
+      "id": "ecocuisine-fd8748",
+      "locationSet": {"include": ["fr", "ma"]},
+      "tags": {
+        "brand": "Ecocuisine",
+        "brand:wikidata": "Q141349333",
+        "name": "Ecocuisine",
+        "shop": "kitchen"
+      }
+    },
+    {
       "displayName": "Gaggenau",
       "id": "gaggenau-1743cc",
       "locationSet": {"include": ["001"]},

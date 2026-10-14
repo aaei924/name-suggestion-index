@@ -378,6 +378,17 @@
       }
     },
     {
+      "displayName": "Veloland",
+      "id": "veloland-64ac44",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Veloland",
+        "brand:wikidata": "Q141566882",
+        "name": "Veloland",
+        "shop": "bicycle"
+      }
+    },
+    {
       "displayName": "Wim",
       "id": "wim-ae2479",
       "locationSet": {"include": ["id"]},
@@ -454,6 +465,21 @@
         "name": "サイクルベースあさひ",
         "name:en": "Cycle Base Asahi",
         "name:ja": "サイクルベースあさひ",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "displayName": "ダイワサイクル",
+      "id": "daiwacycle-1d9d0f",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "brand": "ダイワサイクル",
+        "brand:en": "Daiwa Cycle",
+        "brand:ja": "ダイワサイクル",
+        "brand:wikidata": "Q109598687",
+        "name": "ダイワサイクル",
+        "name:en": "Daiwa Cycle",
+        "name:ja": "ダイワサイクル",
         "shop": "bicycle"
       }
     },

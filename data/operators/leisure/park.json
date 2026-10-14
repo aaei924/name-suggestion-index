@@ -2049,6 +2049,23 @@
       }
     },
     {
+      "displayName": "City of Gold Coast",
+      "id": "cityofgoldcoast-f88a26",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
+      "matchNames": [
+        "gccc",
+        "gold coast city council"
+      ],
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Gold Coast",
+        "operator:type": "government",
+        "operator:wikidata": "Q30267253"
+      }
+    },
+    {
       "displayName": "City of Goodyear",
       "id": "cityofgoodyear-1fe561",
       "locationSet": {
@@ -4749,20 +4766,6 @@
       }
     },
     {
-      "displayName": "Gold Coast City Council",
-      "id": "goldcoastcitycouncil-f88a26",
-      "locationSet": {
-        "include": ["au-qld.geojson"]
-      },
-      "tags": {
-        "leisure": "park",
-        "operator": "Gold Coast City Council",
-        "operator:short": "GCCC",
-        "operator:type": "government",
-        "operator:wikidata": "Q30267253"
-      }
-    },
-    {
       "displayName": "Goshen Parks & Recreation Department",
       "id": "goshenparksandrecreationdepartment-86dc7f",
       "locationSet": {
@@ -5486,6 +5489,19 @@
         "operator": "Knowsley Council",
         "operator:type": "government",
         "operator:wikidata": "Q16995750"
+      }
+    },
+    {
+      "displayName": "Ku-ring-gai Council",
+      "id": "kuringgaicouncil-11d7e5",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Ku-ring-gai Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q56477579"
       }
     },
     {
@@ -6222,6 +6238,19 @@
       }
     },
     {
+      "displayName": "Mosman Council",
+      "id": "mosmancouncil-11d7e5",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Mosman Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q56477569"
+      }
+    },
+    {
       "displayName": "Mount Prospect Park District",
       "id": "mountprospectparkdistrict-d1b6fa",
       "locationSet": {
@@ -6757,6 +6786,19 @@
         "operator": "North Dakota Parks and Recreation Department",
         "operator:type": "government",
         "operator:wikidata": "Q60774299"
+      }
+    },
+    {
+      "displayName": "North Sydney Council",
+      "id": "northsydneycouncil-11d7e5",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "North Sydney Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q56477552"
       }
     },
     {

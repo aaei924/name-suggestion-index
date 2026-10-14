@@ -288,6 +288,20 @@
       }
     },
     {
+      "displayName": "FitnessBoutique",
+      "id": "fitnessboutique-ab34c1",
+      "locationSet": {
+        "include": ["be", "fr", "ma"]
+      },
+      "tags": {
+        "alt_name": "Fitness Boutique",
+        "brand": "FitnessBoutique",
+        "brand:wikidata": "Q65151892",
+        "name": "FitnessBoutique",
+        "shop": "sports"
+      }
+    },
+    {
       "displayName": "Fitshop",
       "id": "fitshop-b06acf",
       "locationSet": {
@@ -873,6 +887,36 @@
       }
     },
     {
+      "displayName": "Skiset",
+      "id": "skiset-8e4106",
+      "locationSet": {
+        "include": [
+          "ad",
+          "at",
+          "bg",
+          "ch",
+          "de",
+          "es",
+          "fx",
+          "it",
+          "si",
+          "sk"
+        ]
+      },
+      "matchTags": [
+        "amenity/ski_rental",
+        "shop/rental"
+      ],
+      "tags": {
+        "amenity": "ski_rental",
+        "brand": "Skiset",
+        "brand:wikidata": "Q48747223",
+        "name": "Skiset",
+        "shop": "sports",
+        "sport": "ski;snowboard"
+      }
+    },
+    {
       "displayName": "Source For Sports",
       "id": "sourceforsports-80660e",
       "locationSet": {"include": ["ca"]},
@@ -1263,6 +1307,21 @@
         "name": "スポーツデポ",
         "name:en": "Sports Depo",
         "name:ja": "スポーツデポ",
+        "shop": "sports"
+      }
+    },
+    {
+      "displayName": "ムラサキスポーツ",
+      "id": "murasakisports-04ead7",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "brand": "ムラサキスポーツ",
+        "brand:en": "Murasaki Sports",
+        "brand:ja": "ムラサキスポーツ",
+        "brand:wikidata": "Q11343172",
+        "name": "ムラサキスポーツ",
+        "name:en": "Murasaki Sports",
+        "name:ja": "ムラサキスポーツ",
         "shop": "sports"
       }
     },

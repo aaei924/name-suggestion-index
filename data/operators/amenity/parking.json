@@ -31,6 +31,22 @@
       }
     },
     {
+      "displayName": "AMGEVICESA",
+      "id": "aparcamientosmunicipalesygestionvialdeceutasa-e6e9da",
+      "locationSet": {"include": ["es-ce"]},
+      "matchNames": [
+        "aparcamientos ceuta",
+        "aparcamientos municipales y gestión vial de ceuta"
+      ],
+      "tags": {
+        "amenity": "parking",
+        "operator": "Aparcamientos Municipales y Gestión Vial de Ceuta S.A.",
+        "operator:short": "AMGEVICESA",
+        "operator:type": "public",
+        "operator:wikidata": "Q141623439"
+      }
+    },
+    {
       "displayName": "APCOA Parking",
       "id": "apcoaparking-e752ad",
       "locationSet": {
@@ -145,6 +161,36 @@
         "operator": "City Center Parking",
         "operator:type": "private",
         "operator:wikidata": "Q108276976"
+      }
+    },
+    {
+      "displayName": "City of Gold Coast",
+      "id": "cityofgoldcoast-d2c33d",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
+      "matchNames": [
+        "gccc",
+        "gold coast city council"
+      ],
+      "tags": {
+        "amenity": "parking",
+        "operator": "City of Gold Coast",
+        "operator:type": "government",
+        "operator:wikidata": "Q30267253"
+      }
+    },
+    {
+      "displayName": "City of Ryde",
+      "id": "cityofryde-f50fe9",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "amenity": "parking",
+        "operator": "City of Ryde",
+        "operator:type": "government",
+        "operator:wikidata": "Q56477522"
       }
     },
     {
@@ -508,6 +554,19 @@
       }
     },
     {
+      "displayName": "Ku-ring-gai Council",
+      "id": "kuringgaicouncil-f50fe9",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "amenity": "parking",
+        "operator": "Ku-ring-gai Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q56477579"
+      }
+    },
+    {
       "displayName": "London Borough of Newham",
       "id": "londonboroughofnewham-38d530",
       "locationSet": {
@@ -545,6 +604,19 @@
         "operator": "Mesto Košice",
         "operator:type": "public",
         "operator:wikidata": "Q25409"
+      }
+    },
+    {
+      "displayName": "Mosman Council",
+      "id": "mosmancouncil-f50fe9",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "amenity": "parking",
+        "operator": "Mosman Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q56477569"
       }
     },
     {
@@ -611,6 +683,32 @@
       }
     },
     {
+      "displayName": "North Sydney Council",
+      "id": "northsydneycouncil-f50fe9",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "amenity": "parking",
+        "operator": "North Sydney Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q56477552"
+      }
+    },
+    {
+      "displayName": "Northern Beaches Council",
+      "id": "northernbeachescouncil-f50fe9",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "amenity": "parking",
+        "operator": "Northern Beaches Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q56477644"
+      }
+    },
+    {
       "displayName": "NPC24H",
       "id": "nihonparkingcorporation-a16317",
       "locationSet": {"include": ["jp"]},
@@ -629,6 +727,23 @@
         "operator:ja": "日本パーキング",
         "operator:type": "private",
         "operator:wikidata": "Q11506782"
+      }
+    },
+    {
+      "displayName": "NSW National Parks and Wildlife Service",
+      "id": "nswnationalparksandwildlifeservice-f50fe9",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "matchNames": [
+        "national parks and wildlife service"
+      ],
+      "tags": {
+        "amenity": "parking",
+        "operator": "NSW National Parks and Wildlife Service",
+        "operator:short": "NPWS",
+        "operator:type": "government",
+        "operator:wikidata": "Q108872274"
       }
     },
     {
@@ -1017,6 +1132,19 @@
         "amenity": "parking",
         "operator": "Vehicle Control Services",
         "operator:type": "private"
+      }
+    },
+    {
+      "displayName": "Willoughby City Council",
+      "id": "willoughbycitycouncil-f50fe9",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "amenity": "parking",
+        "operator": "Willoughby City Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q56477608"
       }
     },
     {

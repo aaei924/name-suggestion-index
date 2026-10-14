@@ -73,7 +73,8 @@
       },
       "tags": {
         "amenity": "drinking_water",
-        "operator": "Acque Bresciane"
+        "operator": "Acque Bresciane",
+        "operator:wikidata": "Q141391465"
       }
     },
     {
@@ -420,6 +421,22 @@
         "operator": "City of Denton",
         "operator:type": "government",
         "operator:wikidata": "Q128306"
+      }
+    },
+    {
+      "displayName": "City of Gold Coast",
+      "id": "cityofgoldcoast-966b8b",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
+      "matchNames": [
+        "gccc",
+        "gold coast city council"
+      ],
+      "tags": {
+        "amenity": "drinking_water",
+        "operator": "City of Gold Coast",
+        "operator:wikidata": "Q30267253"
       }
     },
     {

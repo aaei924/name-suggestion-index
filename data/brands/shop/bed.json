@@ -294,6 +294,17 @@
       }
     },
     {
+      "displayName": "La Halle au Sommeil",
+      "id": "lahalleausommeil-1bbb34",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "La Halle au Sommeil",
+        "brand:wikidata": "Q141196598",
+        "name": "La Halle au Sommeil",
+        "shop": "bed"
+      }
+    },
+    {
       "displayName": "Le Roi du Matelas",
       "id": "leroidumatelas-1bbb34",
       "locationSet": {"include": ["fx"]},
@@ -561,6 +572,18 @@
         "brand": "Sleepmasters",
         "brand:wikidata": "Q116475002",
         "name": "Sleepmasters",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "Super Colchones",
+      "id": "supercolchones-e4a2c8",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "brand": "Super Colchones",
+        "brand:wikidata": "Q126371962",
+        "mattress": "yes",
+        "name": "Super Colchones",
         "shop": "bed"
       }
     },

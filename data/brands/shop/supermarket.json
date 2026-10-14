@@ -11,6 +11,7 @@
         "^duka la vyakula$",
         "^élelmiszer(bolt)?$",
         "^nafaka$",
+        "^supersol$",
         "^tienda( de (barrio|abarrotes))?$",
         "^гастроном$",
         "^дэлгүүр$",
@@ -283,12 +284,11 @@
     },
     {
       "displayName": "Aldi (Aldi Süd group)",
-      "id": "aldi-68f0e3",
+      "id": "aldi-4b76bf",
       "issues": [10738],
       "locationSet": {
         "include": [
           "au",
-          "ch",
           "cn",
           "gb",
           "hu",
@@ -300,7 +300,6 @@
       "matchNames": [
         "aldi australia",
         "aldi süd",
-        "aldi suisse",
         "aldi uk",
         "aldi usa"
       ],
@@ -345,6 +344,17 @@
       }
     },
     {
+      "displayName": "Aldi Suisse",
+      "id": "aldi-36e991",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "brand": "Aldi Suisse",
+        "brand:wikidata": "Q111030009",
+        "name": "Aldi",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "Alimerka",
       "id": "alimerka-0513f1",
       "locationSet": {"include": ["es"]},
@@ -377,6 +387,39 @@
         "organic": "only",
         "shop": "supermarket",
         "short_name": "Alnatura"
+      }
+    },
+    {
+      "displayName": "Alsuper",
+      "id": "alsuper-9b2dfb",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "brand": "Alsuper",
+        "brand:wikidata": "Q6051516",
+        "name": "Alsuper",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "Alsuper Fresh Market",
+      "id": "alsuperfreshmarket-9b2dfb",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "brand": "Alsuper",
+        "brand:wikidata": "Q6051516",
+        "name": "Alsuper Fresh Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "Alsuper Plus",
+      "id": "alsuperplus-9b2dfb",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "brand": "Alsuper",
+        "brand:wikidata": "Q6051516",
+        "name": "Alsuper Plus",
+        "shop": "supermarket"
       }
     },
     {
@@ -871,6 +914,8 @@
         "brand": "Billa",
         "brand:wikidata": "Q42969493",
         "name": "Billa",
+        "operator": "Billa",
+        "operator:wikidata": "Q42969493",
         "shop": "supermarket"
       }
     },
@@ -5370,15 +5415,13 @@
     },
     {
       "displayName": "masymas (Juan Fornés Fornés)",
-      "id": "masymas-cb4ace",
+      "id": "masymas-89bbe3",
       "locationSet": {
         "include": [
-          [-0.3, 38.6983, 60],
-          [-0.7197, 39.4717, 60],
-          [-0.8792, 37.6237, 20],
-          [-1.041389, 38.207222, 60],
-          [-1.6023, 37.7126, 50],
-          [0.0096, 40.3, 60]
+          "es-a.geojson",
+          "es-cs.geojson",
+          "es-mu.geojson",
+          "es-v.geojson"
         ]
       },
       "tags": {
@@ -5991,13 +6034,12 @@
     },
     {
       "displayName": "Mix Markt",
-      "id": "mixmarkt-4aeb54",
+      "id": "mixmarkt-34dfbb",
       "locationSet": {
         "include": [
           "at",
           "be",
           "cy",
-          "cz",
           "de",
           "es",
           "fr",
@@ -6010,8 +6052,7 @@
           "pl",
           "pt",
           "rs",
-          "si",
-          "sk"
+          "si"
         ]
       },
       "matchTags": ["shop/convenience"],
@@ -6640,6 +6681,17 @@
         "brand": "Pam",
         "brand:wikidata": "Q105615038",
         "name": "Pam",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "Pan-Asia",
+      "id": "panasia-dde59d",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Pan-Asia",
+        "brand:wikidata": "Q141112503",
+        "name": "Pan-Asia",
         "shop": "supermarket"
       }
     },
@@ -7713,11 +7765,13 @@
       "displayName": "Sheng Siong",
       "id": "shengsiong-07d9e1",
       "locationSet": {"include": ["sg"]},
+      "matchNames": ["昇松超市"],
       "tags": {
         "brand": "Sheng Siong",
         "brand:wikidata": "Q3481878",
         "name": "Sheng Siong",
-        "name:zh": "昇松超市",
+        "name:en": "Sheng Siong",
+        "name:zh": "昇菘超市",
         "shop": "supermarket"
       }
     },
@@ -7976,6 +8030,19 @@
       }
     },
     {
+      "displayName": "So.bio",
+      "id": "sobio-94a8a9",
+      "locationSet": {"include": ["fx"]},
+      "matchTags": ["shop/convenience"],
+      "tags": {
+        "brand": "So.bio",
+        "brand:wikidata": "Q141195843",
+        "name": "So.bio",
+        "organic": "only",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "Sobeys",
       "id": "sobeys-76454b",
       "locationSet": {"include": ["ca"]},
@@ -8032,13 +8099,14 @@
       }
     },
     {
-      "displayName": "Sorli Discau",
-      "id": "sorlidiscau-0513f1",
+      "displayName": "Sorli",
+      "id": "sorli-0513f1",
       "locationSet": {"include": ["es"]},
+      "matchNames": ["sorli discau"],
       "tags": {
-        "brand": "Sorli Discau",
+        "brand": "Sorli",
         "brand:wikidata": "Q20103935",
-        "name": "Sorli Discau",
+        "name": "Sorli",
         "shop": "supermarket"
       }
     },
@@ -8572,19 +8640,6 @@
       }
     },
     {
-      "displayName": "Supersol",
-      "id": "supersol-0a1807",
-      "locationSet": {
-        "include": ["ar", "es", "ma", "uy"]
-      },
-      "tags": {
-        "brand": "Supersol",
-        "brand:wikidata": "Q62073427",
-        "name": "Supersol",
-        "shop": "supermarket"
-      }
-    },
-    {
       "displayName": "Superspar",
       "id": "superspar-5f0ef1",
       "locationSet": {"include": ["es", "za"]},
@@ -8636,6 +8691,18 @@
         "brand": "Sutterlüty",
         "brand:wikidata": "Q1421502",
         "name": "Sutterlüty",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "Tang Frères",
+      "id": "tangfreres-94a8a9",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Tang Frères",
+        "brand:wikidata": "Q1005336",
+        "name": "Tang Frères",
+        "origin": "asian",
         "shop": "supermarket"
       }
     },

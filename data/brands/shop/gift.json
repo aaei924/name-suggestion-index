@@ -198,9 +198,9 @@
     },
     {
       "displayName": "Disney Store",
-      "id": "disneystore-81bf88",
+      "id": "disneystore-cfb1fd",
       "locationSet": {
-        "include": ["ca", "fr", "us"]
+        "include": ["ca", "fr", "ph", "us"]
       },
       "matchNames": ["the disney store"],
       "matchTags": ["shop/toys"],
@@ -298,6 +298,17 @@
         "brand": "imaginarium",
         "brand:wikidata": "Q115687683",
         "name": "imaginarium",
+        "shop": "gift"
+      }
+    },
+    {
+      "displayName": "Kultura",
+      "id": "kultura-5322bd",
+      "locationSet": {"include": ["ph"]},
+      "tags": {
+        "brand": "Kultura",
+        "brand:wikidata": "Q141555153",
+        "name": "Kultura",
         "shop": "gift"
       }
     },

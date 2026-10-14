@@ -1358,9 +1358,15 @@
     },
     {
       "displayName": "ČEZ Teplárenská",
-      "id": "cezteplarenska-fee508",
+      "id": "cezteplarenska-0ef11d",
       "locationSet": {
-        "include": ["cz-42.geojson"]
+        "include": [
+          "cz-41.geojson",
+          "cz-42.geojson",
+          "cz-52.geojson",
+          "cz-64.geojson",
+          "cz-80.geojson"
+        ]
       },
       "tags": {
         "man_made": "pipeline",
@@ -5588,14 +5594,16 @@
       }
     },
     {
-      "displayName": "MěPOS Šenov",
-      "id": "mepossenov-f07afc",
+      "displayName": "MěPOS",
+      "id": "mepos-f07afc",
       "locationSet": {
         "include": ["cz-80.geojson"]
       },
+      "matchNames": ["mepos senov"],
       "tags": {
         "man_made": "pipeline",
-        "operator": "MěPOS Šenov"
+        "operator": "MěPOS",
+        "operator:wikidata": "Q141146392"
       }
     },
     {

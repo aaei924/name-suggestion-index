@@ -58,6 +58,18 @@
       }
     },
     {
+      "displayName": "AJP Immobilier",
+      "id": "ajpimmobilier-b7bc37",
+      "locationSet": {"include": ["fx"]},
+      "matchNames": ["ajp"],
+      "tags": {
+        "brand": "AJP Immobilier",
+        "brand:wikidata": "Q141301527",
+        "name": "AJP Immobilier",
+        "office": "estate_agent"
+      }
+    },
+    {
       "displayName": "Allen & Harris",
       "id": "allenandharris-aa448d",
       "locationSet": {"include": ["gb"]},
@@ -233,6 +245,7 @@
       "locationSet": {"include": ["fx"]},
       "tags": {
         "brand": "Cabinet Bedin",
+        "brand:wikidata": "Q141309660",
         "name": "Cabinet Bedin",
         "office": "estate_agent"
       }

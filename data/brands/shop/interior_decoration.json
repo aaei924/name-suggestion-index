@@ -7,6 +7,21 @@
   },
   "items": [
     {
+      "displayName": "Ambiance & Styles",
+      "id": "ambianceandstyles-c45f99",
+      "locationSet": {"include": ["fr"]},
+      "matchNames": [
+        "ambiance styles",
+        "ambiances et styles"
+      ],
+      "tags": {
+        "brand": "Ambiance & Styles",
+        "brand:wikidata": "Q141345963",
+        "name": "Ambiance & Styles",
+        "shop": "interior_decoration"
+      }
+    },
+    {
       "displayName": "Bouclair",
       "id": "bouclair-aa1ae6",
       "locationSet": {"include": ["ca"]},

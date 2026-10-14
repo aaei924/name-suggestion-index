@@ -196,6 +196,17 @@
       }
     },
     {
+      "displayName": "Culinarion",
+      "id": "culinarion-1b912f",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Culinarion",
+        "brand:wikidata": "Q141203030",
+        "name": "Culinarion",
+        "shop": "houseware"
+      }
+    },
+    {
       "displayName": "Dille & Kamille",
       "id": "dilleandkamille-c5ed6b",
       "locationSet": {

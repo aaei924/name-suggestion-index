@@ -3182,6 +3182,18 @@
       }
     },
     {
+      "displayName": "SDIS 73",
+      "id": "sdis73-3ba645",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "SDIS 73",
+        "operator:wikidata": "Q88766586"
+      }
+    },
+    {
       "displayName": "SDIS 74",
       "id": "sdis74-3ba645",
       "locationSet": {
@@ -3359,6 +3371,18 @@
         "amenity": "fire_station",
         "operator": "SDIS 89",
         "operator:wikidata": "Q88767239"
+      }
+    },
+    {
+      "displayName": "SDIS 90",
+      "id": "sdis90-d2ef74",
+      "locationSet": {
+        "include": ["fr-bfc.geojson"]
+      },
+      "tags": {
+        "amenity": "fire_station",
+        "operator": "SDIS 90",
+        "operator:wikidata": "Q88767285"
       }
     },
     {

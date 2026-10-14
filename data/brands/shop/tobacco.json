@@ -7,10 +7,15 @@
         "^heated tobacco$",
         "^smoke shop$",
         "^taba[ck](os|chi)?( trafi[kc])?$",
+        "^tabac presse$",
+        "^tabacs?$",
         "^trafik$",
         "^табак$"
       ],
-      "named": ["^smoker friendly$"]
+      "named": [
+        "^la civette$",
+        "^smoker friendly$"
+      ]
     }
   },
   "items": [
@@ -97,16 +102,6 @@
       }
     },
     {
-      "displayName": "La Civette",
-      "id": "lacivette-a60798",
-      "locationSet": {"include": ["fx"]},
-      "tags": {
-        "brand": "La Civette",
-        "name": "La Civette",
-        "shop": "tobacco"
-      }
-    },
-    {
       "displayName": "M+M Tabak",
       "id": "mmtabak-219048",
       "locationSet": {"include": ["sk"]},
@@ -156,26 +151,6 @@
         "brand": "T-ZONE",
         "brand:wikidata": "Q115111848",
         "name": "T-ZONE",
-        "shop": "tobacco"
-      }
-    },
-    {
-      "displayName": "Tabac Presse",
-      "id": "tabacpresse-09dccc",
-      "locationSet": {"include": ["fr"]},
-      "tags": {
-        "brand": "Tabac Presse",
-        "name": "Tabac Presse",
-        "shop": "tobacco"
-      }
-    },
-    {
-      "displayName": "Tabacs",
-      "id": "tabacs-227434",
-      "locationSet": {"include": ["es", "fr"]},
-      "tags": {
-        "brand": "Tabacs",
-        "name": "Tabacs",
         "shop": "tobacco"
       }
     },

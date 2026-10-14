@@ -8,6 +8,18 @@
   },
   "items": [
     {
+      "displayName": "Servicio Público de Empleo Estatal",
+      "locationSet": {"include": ["es"]},
+      "matchNames": ["Servicio Público de Empleo Estatal (SEPE)", "SEPE"],
+      "tags": {
+        "brand": "Servicio Público de Empleo Estatal",
+        "brand:wikidata": "Q2939495",
+        "brand:short": "SEPE",
+        "name": "Servicio Público de Empleo Estatal",
+        "office": "Q30295218"
+      }
+    },
+    {
       "displayName": "Accent Jobs",
       "id": "accentjobs-26db9d",
       "locationSet": {"include": ["be"]},
@@ -89,6 +101,17 @@
         "brand": "CRIT",
         "brand:wikidata": "Q126912884",
         "name": "CRIT Interim",
+        "office": "employment_agency"
+      }
+    },
+    {
+      "displayName": "Domino RH",
+      "id": "dominorh-e5fc42",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Domino RH",
+        "brand:wikidata": "Q141174923",
+        "name": "Domino RH",
         "office": "employment_agency"
       }
     },

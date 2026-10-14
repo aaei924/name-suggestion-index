@@ -20,7 +20,7 @@
         "^((eiscaf[eé] )?(dolomiti|venezia)|kiosque( à)? caf[eé]|caf[eé] express)$",
         "^(bar )?(central|centrale|kafe|roma|sport)?$",
         "^(встреча|рандеву|жемчужина|виктория|бер[её]зка|лакомка|мечта|оазис|парус|сказка|зерно)$",
-        "^caf[eé] de(s)? (la )?(place|sports|gare|mairie|poste|paris)$",
+        "^caf[eé] d(e)?(u)?(s)? (la )?(place|sports|gare|mairie|poste|paris|centre)$",
         "^caffè centrale$",
         "^coffee (bean|break|corner|point)$",
         "^dolce vita$",
@@ -967,18 +967,6 @@
       }
     },
     {
-      "displayName": "Café du Centre",
-      "id": "cafeducentre-1bfce4",
-      "locationSet": {"include": ["fx"]},
-      "tags": {
-        "amenity": "cafe",
-        "brand": "Café du Centre",
-        "cuisine": "coffee_shop",
-        "name": "Café du Centre",
-        "takeaway": "yes"
-      }
-    },
-    {
       "displayName": "Café du Monde",
       "id": "cafedumonde-63d1a0",
       "locationSet": {
@@ -1813,8 +1801,8 @@
       }
     },
     {
-      "displayName": "Columbus Café & Co",
-      "id": "columbuscafeandco-d3efe9",
+      "displayName": "Columbus Café",
+      "id": "columbuscafe-d3efe9",
       "locationSet": {
         "include": [
           "be",
@@ -1830,14 +1818,14 @@
         "colombus café",
         "colombus café & co",
         "columbus",
-        "columbus café"
+        "columbus café & co"
       ],
       "tags": {
         "amenity": "cafe",
-        "brand": "Columbus Café & Co",
+        "brand": "Columbus Café",
         "brand:wikidata": "Q2984582",
         "cuisine": "coffee_shop",
-        "name": "Columbus Café & Co",
+        "name": "Columbus Café",
         "takeaway": "yes"
       }
     },
@@ -2291,6 +2279,19 @@
         "name": "Flying Horse Coffee",
         "name:en": "Flying Horse Coffee",
         "name:ja": "フライングホースコーヒー",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Foam Coffee",
+      "id": "foamcoffee-054740",
+      "locationSet": {"include": ["ph"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Foam Coffee",
+        "brand:wikidata": "Q141592639",
+        "cuisine": "coffee_shop",
+        "name": "Foam Coffee",
         "takeaway": "yes"
       }
     },
@@ -4236,6 +4237,19 @@
         "brand:wikidata": "Q21282762",
         "cuisine": "coffee_shop",
         "name": "Segafredo",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "Serenitea",
+      "id": "serenitea-054740",
+      "locationSet": {"include": ["ph"]},
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Serenitea",
+        "brand:wikidata": "Q24884997",
+        "cuisine": "bubble_tea",
+        "name": "Serenitea",
         "takeaway": "yes"
       }
     },
@@ -7443,27 +7457,8 @@
     },
     {
       "displayName": "库迪咖啡",
-      "id": "cotticoffee-c68570",
-      "locationSet": {
-        "include": [
-          "ae",
-          "au",
-          "ca",
-          "cn",
-          "hk",
-          "id",
-          "jp",
-          "kr",
-          "mo",
-          "my",
-          "ph",
-          "qa",
-          "sg",
-          "th",
-          "us",
-          "vn"
-        ]
-      },
+      "id": "cotticoffee-e1ef51",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "amenity": "cafe",
         "brand": "Cotti Coffee 库迪咖啡",
@@ -7912,6 +7907,30 @@
         "name": "甲文青",
         "name:en": "Jia Wen Cing",
         "name:zh": "甲文青",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "displayName": "皮爷咖啡",
+      "id": "peetscoffee-823e31",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "matchNames": [
+        "peets",
+        "peets coffee & tea"
+      ],
+      "tags": {
+        "amenity": "cafe",
+        "brand": "皮爷咖啡",
+        "brand:en": "Peet's Coffee",
+        "brand:wikidata": "Q1094101",
+        "brand:zh": "皮爷咖啡",
+        "cuisine": "coffee_shop",
+        "name": "皮爷咖啡",
+        "name:en": "Peet's Coffee",
+        "name:zh": "皮爷咖啡",
         "takeaway": "yes"
       }
     },

@@ -10,6 +10,7 @@
       "templateExclude": [
         "abnamro",
         "bankinghub",
+        "monetabank",
         "monobank",
         "postfinance"
       ],
@@ -440,6 +441,21 @@
         "brand:wikidata": "Q6741957",
         "operator": "MEPS",
         "operator:wikidata": "Q6741957"
+      }
+    },
+    {
+      "displayName": "Moneta Bank",
+      "id": "monetabank-767782",
+      "issues": [12705],
+      "locationSet": {"include": ["cz"]},
+      "matchNames": ["moneta"],
+      "tags": {
+        "amenity": "atm",
+        "brand": "Moneta Bank",
+        "brand:wikidata": "Q24282966",
+        "operator": "Moneta Money Bank",
+        "operator:type": "private",
+        "operator:wikidata": "Q24282966"
       }
     },
     {

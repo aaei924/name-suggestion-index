@@ -68,20 +68,24 @@
     },
     {
       "displayName": "Action",
-      "id": "action-ba0d1d",
+      "id": "action-affbc2",
       "locationSet": {
         "include": [
           "at",
           "be",
+          "ch",
           "cz",
           "de",
           "es",
           "fr",
+          "hr",
           "it",
           "lu",
           "nl",
           "pl",
           "pt",
+          "ro",
+          "si",
           "sk"
         ]
       },
@@ -158,6 +162,17 @@
         "brand": "Big Bazar",
         "brand:wikidata": "Q15873104",
         "name": "Big Bazar",
+        "shop": "variety_store"
+      }
+    },
+    {
+      "displayName": "C'est deux euros",
+      "id": "cestdeuxeuros-efe747",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "C'est deux euros",
+        "brand:wikidata": "Q141181414",
+        "name": "C'est deux euros",
         "shop": "variety_store"
       }
     },
@@ -416,7 +431,7 @@
     },
     {
       "displayName": "Flying Tiger Copenhagen",
-      "id": "flyingtigercopenhagen-55ef00",
+      "id": "flyingtigercopenhagen-261a35",
       "locationSet": {
         "include": [
           "at",
@@ -444,6 +459,7 @@
           "mt",
           "nl",
           "no",
+          "ph",
           "pl",
           "pt",
           "se",

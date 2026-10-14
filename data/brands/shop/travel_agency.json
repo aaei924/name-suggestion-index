@@ -706,6 +706,17 @@
       }
     },
     {
+      "displayName": "Virgin Holidays",
+      "id": "virginholidays-b1d32b",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "Virgin Holidays",
+        "brand:wikidata": "Q7933926",
+        "name": "Virgin Holidays",
+        "shop": "travel_agency"
+      }
+    },
+    {
       "displayName": "Wakacje.pl",
       "id": "wakacjepl-68492b",
       "locationSet": {"include": ["pl"]},

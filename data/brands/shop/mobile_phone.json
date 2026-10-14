@@ -812,6 +812,19 @@
       }
     },
     {
+      "displayName": "Save",
+      "id": "save-f6fe9a",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Save",
+        "brand:wikidata": "Q121289450",
+        "mobile_phone:repair": "yes",
+        "name": "Save",
+        "second_hand": "yes",
+        "shop": "mobile_phone"
+      }
+    },
+    {
       "displayName": "Smartshop",
       "id": "smartshop-0fdd33",
       "locationSet": {"include": ["sk"]},
@@ -1433,6 +1446,20 @@
         "brand": "Walmart",
         "brand:wikidata": "Q483551",
         "name": "Walmart Wireless",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "displayName": "WeFix",
+      "id": "wefix-3888e5",
+      "locationSet": {"include": ["be", "fr"]},
+      "matchTags": ["craft/electronics_repair"],
+      "tags": {
+        "brand": "WeFix",
+        "brand:wikidata": "Q121543865",
+        "mobile_phone:repair": "yes",
+        "name": "WeFix",
+        "second_hand": "yes",
         "shop": "mobile_phone"
       }
     },

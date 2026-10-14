@@ -11,6 +11,18 @@
   },
   "items": [
     {
+      "displayName": "3 Hermanos",
+      "id": "3hermanos-02b23f",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "brand": "3 Hermanos",
+        "brand:wikidata": "Q127043299",
+        "name": "3 Hermanos",
+        "shoes": "women;men;children",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "ABC Schuh-Center",
       "id": "abcschuhcenter-0833e2",
       "locationSet": {"include": ["de"]},
@@ -77,6 +89,19 @@
         "brand": "André",
         "brand:wikidata": "Q2847114",
         "name": "André",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Andrea",
+      "id": "andrea-02b23f",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "brand": "Andrea",
+        "brand:wikidata": "Q141136311",
+        "clothes": "women;men;children",
+        "name": "Andrea",
+        "shoes": "women;men;children",
         "shop": "shoes"
       }
     },
@@ -210,6 +235,17 @@
       }
     },
     {
+      "displayName": "Benvenuti",
+      "id": "benvenuti-fca3af",
+      "locationSet": {"include": ["ro"]},
+      "tags": {
+        "brand": "Benvenuti",
+        "brand:wikidata": "Q12721652",
+        "name": "Benvenuti",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Besson Chaussures",
       "id": "bessonchaussures-e6cf1b",
       "locationSet": {"include": ["fx"]},
@@ -240,6 +276,17 @@
         "brand:wikidata": "Q101247434",
         "name": "Bexley",
         "shoes": "men",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "BHermanos",
+      "id": "bhermanos-02b23f",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "brand": "BHermanos",
+        "brand:wikidata": "Q141176416",
+        "name": "BHermanos",
         "shop": "shoes"
       }
     },
@@ -691,6 +738,27 @@
         "brand": "Famous Footwear",
         "brand:wikidata": "Q5433457",
         "name": "Famous Footwear",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Finsbury",
+      "id": "finsbury-d5b2ff",
+      "locationSet": {
+        "include": [
+          "be",
+          "ci",
+          "dz",
+          "fr",
+          "hk",
+          "lu",
+          "ma"
+        ]
+      },
+      "tags": {
+        "brand": "Finsbury",
+        "brand:wikidata": "Q141242163",
+        "name": "Finsbury",
         "shop": "shoes"
       }
     },
@@ -1273,6 +1341,17 @@
       "tags": {
         "brand": "Mani",
         "brand:wikidata": "Q127922507",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Marelbo",
+      "id": "marelbo-fca3af",
+      "locationSet": {"include": ["ro"]},
+      "tags": {
+        "brand": "Marelbo",
+        "brand:wikidata": "Q141462391",
+        "name": "Marelbo",
         "shop": "shoes"
       }
     },
@@ -2294,7 +2373,7 @@
     },
     {
       "displayName": "Snipes",
-      "id": "snipes-9e6e1a",
+      "id": "snipes-33c850",
       "locationSet": {
         "include": [
           "at",
@@ -2303,9 +2382,11 @@
           "de",
           "es",
           "fr",
+          "hr",
           "it",
           "nl",
           "pl",
+          "pt",
           "us"
         ]
       },

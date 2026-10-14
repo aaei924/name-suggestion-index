@@ -1,0 +1,38 @@
+{
+  "properties": {
+    "path": "operators/amenity/bbq",
+    "exclude": {
+      "generic": ["^(bbq|barbe[cq]ue)$"],
+      "named": ["^schweizer familie$"]
+    }
+  },
+  "items": [
+    {
+      "displayName": "City of Gold Coast",
+      "id": "cityofgoldcoast-980a63",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
+      "matchNames": [
+        "gccc",
+        "gold coast city council"
+      ],
+      "tags": {
+        "amenity": "bbq",
+        "operator": "City of Gold Coast",
+        "operator:wikidata": "Q30267253"
+      }
+    },
+    {
+      "displayName": "United States Forest Service",
+      "id": "unitedstatesforestservice-cb4e7e",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "bbq",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:wikidata": "Q1891156"
+      }
+    }
+  ]
+}

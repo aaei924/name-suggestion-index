@@ -10,7 +10,6 @@
         "^(the )?barber(ia|shop|\\sshop)?$",
         "^(парикмахер(ская)?|персона|перукарня)$",
         "^coiff(eur|ure)\\s?(homme|dame)?$",
-        "^haar(genau|monie|scharf)$",
         "^hair\\s?(design|dresser|lounge|salon|studio|style)$",
         "^kadeřnictví$",
         "^kirpykla$",
@@ -22,7 +21,7 @@
       "named": [
         "^(a cut above|art of hair|biguine|cutting edge|espace coiffure|figaro|glamour|golden scissors|haarwerk|hair & beauty|hairport)$",
         "^(anna|natalie)$",
-        "^(ihr friseur|new look|schnittpunkt|style|the cutting room|the hair lounge)$",
+        "^(ihr friseur|new look|schnittpunkt|haar(genau|monie|scharf)|style|the cutting room|the hair lounge)$",
         "^(каприз|фея|стиль|локон|шарм|натали)$",
         "^fodrászat$"
       ]
@@ -158,6 +157,17 @@
         "brand": "Cutters",
         "brand:wikidata": "Q106940660",
         "name": "Cutters",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "displayName": "David's Salon",
+      "id": "davidssalon-2b2fb2",
+      "locationSet": {"include": ["ph"]},
+      "tags": {
+        "brand": "David's Salon",
+        "brand:wikidata": "Q141554128",
+        "name": "David's Salon",
         "shop": "hairdresser"
       }
     },
@@ -1018,6 +1028,7 @@
       "locationSet": {"include": ["fr"]},
       "tags": {
         "brand": "Vog Coiffure",
+        "brand:wikidata": "Q141223643",
         "name": "Vog Coiffure",
         "shop": "hairdresser"
       }

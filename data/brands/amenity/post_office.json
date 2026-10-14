@@ -20,6 +20,17 @@
       }
     },
     {
+      "displayName": "Australia Post",
+      "id": "australiapost-f90efe",
+      "locationSet": {"include": ["au"]},
+      "matchNames": ["aus post", "aust post"],
+      "tags": {
+        "amenity": "post_office",
+        "brand": "Australia Post",
+        "brand:wikidata": "Q1142936"
+      }
+    },
+    {
       "displayName": "Best Express",
       "id": "bestexpress-4c54ab",
       "locationSet": {
@@ -411,6 +422,17 @@
       }
     },
     {
+      "displayName": "PostLink",
+      "id": "postlink-8373b7",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "amenity": "post_office",
+        "brand": "PostLink",
+        "brand:wikidata": "Q141246404",
+        "name": "PostLink"
+      }
+    },
+    {
       "displayName": "PostNet",
       "id": "postnet-7f7712",
       "locationSet": {
@@ -483,6 +505,17 @@
         "brand:wikidata": "Q7771029",
         "name": "The UPS Store",
         "shop": "copyshop"
+      }
+    },
+    {
+      "displayName": "Tresguerras",
+      "id": "tresguerras-d15952",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "amenity": "post_office",
+        "brand": "Tresguerras",
+        "brand:wikidata": "Q127273428",
+        "name": "Tresguerras"
       }
     },
     {

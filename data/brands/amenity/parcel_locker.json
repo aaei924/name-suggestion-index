@@ -146,6 +146,17 @@
       }
     },
     {
+      "displayName": "Bob Box",
+      "id": "bobbox-6115c3",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Bob Box",
+        "brand:wikidata": "Q141276676",
+        "name": "Bob Box"
+      }
+    },
+    {
       "displayName": "Box Now (Hrvatska)",
       "id": "boxnow-30ebd7",
       "locationSet": {"include": ["hr"]},
@@ -246,17 +257,6 @@
       }
     },
     {
-      "displayName": "Deutsche Post",
-      "id": "deutschepost-83cc4d",
-      "locationSet": {"include": ["de"]},
-      "matchNames": ["deutsche post ag"],
-      "tags": {
-        "amenity": "parcel_locker",
-        "brand": "Deutsche Post",
-        "brand:wikidata": "Q157645"
-      }
-    },
-    {
       "displayName": "DExpress",
       "id": "dexpress-a2bd5c",
       "locationSet": {"include": ["rs"]},
@@ -303,33 +303,48 @@
       "displayName": "DHL Packstation",
       "id": "dhlpackstation-83cc4d",
       "locationSet": {"include": ["de"]},
-      "matchNames": ["packstation"],
+      "matchNames": [
+        "deutsche post packstation",
+        "packstation"
+      ],
       "tags": {
         "amenity": "parcel_locker",
         "brand": "DHL Packstation",
-        "brand:wikidata": "Q1766703"
+        "brand:wikidata": "Q1766703",
+        "operator": "DHL",
+        "operator:wikidata": "Q489815"
       }
     },
     {
       "displayName": "DHL Paketbox",
       "id": "dhlpaketbox-83cc4d",
       "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "deutsche post paketbox",
+        "paketbox"
+      ],
       "tags": {
         "amenity": "parcel_locker",
-        "brand": "Paketbox",
+        "brand": "DHL Paketbox",
         "brand:wikidata": "Q2046604",
-        "name": "DHL Paketbox"
+        "operator": "DHL",
+        "operator:wikidata": "Q489815"
       }
     },
     {
       "displayName": "DHL Poststation",
       "id": "dhlpoststation-83cc4d",
       "locationSet": {"include": ["de"]},
-      "matchNames": ["poststation"],
+      "matchNames": [
+        "deutsche post poststation",
+        "poststation"
+      ],
       "tags": {
         "amenity": "parcel_locker",
         "brand": "DHL Poststation",
-        "brand:wikidata": "Q123120984"
+        "brand:wikidata": "Q123120984",
+        "operator": "DHL",
+        "operator:wikidata": "Q489815"
       }
     },
     {
@@ -587,6 +602,16 @@
       }
     },
     {
+      "displayName": "Inboxx",
+      "id": "inboxx-83cc4d",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Inboxx",
+        "brand:wikidata": "Q141392107"
+      }
+    },
+    {
       "displayName": "InPost",
       "id": "inpost-6b37ec",
       "locationSet": {
@@ -646,6 +671,16 @@
         "operator:zh": "中華郵政",
         "operator:zh-Hans": "中华邮政",
         "operator:zh-Hant": "中華郵政"
+      }
+    },
+    {
+      "displayName": "Kargopark",
+      "id": "kargopark-391183",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Kargopark",
+        "brand:wikidata": "Q141618371"
       }
     },
     {
@@ -1101,6 +1136,26 @@
       }
     },
     {
+      "displayName": "Ptt Kargomat",
+      "id": "pttkargomat-391183",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Ptt Kargomat",
+        "brand:wikidata": "Q141618126"
+      }
+    },
+    {
+      "displayName": "PUDO Türkiye",
+      "id": "pudo-391183",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "PUDO",
+        "brand:wikidata": "Q131450632"
+      }
+    },
+    {
       "displayName": "PUDOステーション",
       "id": "pudostation-5c1de3",
       "locationSet": {"include": ["jp"]},
@@ -1226,6 +1281,17 @@
       }
     },
     {
+      "displayName": "Trendyol Kargo Otomatı",
+      "id": "trendyolkargootomati-391183",
+      "locationSet": {"include": ["tr"]},
+      "matchNames": ["trendyol gel al"],
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "Trendyol Kargo Otomatı",
+        "brand:wikidata": "Q141618322"
+      }
+    },
+    {
       "displayName": "Venipak",
       "id": "venipak-b4a3f3",
       "locationSet": {
@@ -1257,6 +1323,17 @@
         "brand": "Yeep",
         "brand:wikidata": "Q123421114",
         "name": "Yeep"
+      }
+    },
+    {
+      "displayName": "YK Plus",
+      "id": "ykplus-391183",
+      "locationSet": {"include": ["tr"]},
+      "matchNames": ["yurtiçi kargo plus"],
+      "tags": {
+        "amenity": "parcel_locker",
+        "brand": "YK Plus",
+        "brand:wikidata": "Q141619256"
       }
     },
     {

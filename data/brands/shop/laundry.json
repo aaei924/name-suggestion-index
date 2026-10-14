@@ -7,6 +7,7 @@
         "^(coin )?launde?r(ette|omat|y)$",
         "^lavander[ií]a$",
         "^laverie( automatique| libre service)?$",
+        "^pressing$",
         "^прачечная$",
         "^コインランドリー$"
       ],
@@ -101,16 +102,6 @@
       "tags": {
         "brand": "Liquid Laundromat",
         "name": "Liquid Laundromat",
-        "shop": "laundry"
-      }
-    },
-    {
-      "displayName": "Pressing",
-      "id": "pressing-31ef1f",
-      "locationSet": {"include": ["fx"]},
-      "tags": {
-        "brand": "Pressing",
-        "name": "Pressing",
         "shop": "laundry"
       }
     },

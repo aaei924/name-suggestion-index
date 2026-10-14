@@ -567,7 +567,7 @@
     {
       "displayName": "Designer Sofas",
       "id": "designersofas-94fffd",
-      "locationSet": {"include": ["gb", "ie"]},
+      "locationSet": {"include": ["gb"]},
       "matchNames": ["designer natuzzi"],
       "tags": {
         "brand": "Designer Sofas",
@@ -1619,9 +1619,16 @@
     },
     {
       "displayName": "Nitori",
-      "id": "nitori-a040a8",
+      "id": "nitori-03e0aa",
       "locationSet": {
-        "include": ["hk", "mo", "my", "sg", "us"]
+        "include": [
+          "hk",
+          "mo",
+          "my",
+          "ph",
+          "sg",
+          "us"
+        ]
       },
       "tags": {
         "brand": "Nitori",
@@ -2119,6 +2126,17 @@
         "brand": "Sotka",
         "brand:wikidata": "Q18689173",
         "name": "Sotka",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Staer",
+      "id": "staer-e892fd",
+      "locationSet": {"include": ["ro"]},
+      "tags": {
+        "brand": "Staer",
+        "brand:wikidata": "Q18548069",
+        "name": "Staer",
         "shop": "furniture"
       }
     },

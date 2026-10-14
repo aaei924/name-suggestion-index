@@ -271,6 +271,22 @@
       }
     },
     {
+      "displayName": "Dairy Queen (Philippines)",
+      "id": "dairyqueen-ph1897",
+      "locationSet": {"include": ["ph"]},
+      "matchNames": ["dq"],
+      "matchTags": ["amenity/fast_food"],
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Dairy Queen",
+        "brand:wikidata": "Q1141226",
+        "cuisine": "ice_cream",
+        "name": "Dairy Queen",
+        "short_name": "DQ",
+        "takeaway": "yes"
+      }
+    },
+    {
       "displayName": "De IJswinckel",
       "id": "deijswinckel-e6af0f",
       "locationSet": {"include": ["nl"]},
@@ -371,6 +387,30 @@
         "brand": "Gelato Borelli",
         "brand:wikidata": "Q132745627",
         "name": "Gelato Borelli"
+      }
+    },
+    {
+      "displayName": "Giovanni L.",
+      "id": "giovannil-ceaed0",
+      "locationSet": {
+        "include": ["at", "de", "dk", "es", "sa"]
+      },
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Giovanni L.",
+        "brand:wikidata": "Q141609716",
+        "name": "Giovanni L."
+      }
+    },
+    {
+      "displayName": "Glaces Moustache",
+      "id": "glacesmoustache-279c9d",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Glaces Moustache",
+        "brand:wikidata": "Q112202767",
+        "name": "Glaces Moustache"
       }
     },
     {
@@ -941,7 +981,7 @@
     },
     {
       "displayName": "smöoy",
-      "id": "smooy-ae897d",
+      "id": "smooy-855c18",
       "locationSet": {
         "include": [
           "ao",
@@ -957,6 +997,7 @@
           "ma",
           "pa",
           "pe",
+          "ph",
           "pt",
           "sa"
         ]
@@ -1127,6 +1168,20 @@
         "brand:wikidata": "Q7982571",
         "name": "Wendy's Milk Bar",
         "short_name": "Wendy's"
+      }
+    },
+    {
+      "displayName": "Yo-Chi",
+      "id": "yochi-acda49",
+      "locationSet": {
+        "include": ["au", "gb-eng", "sg"]
+      },
+      "tags": {
+        "amenity": "ice_cream",
+        "brand": "Yo-Chi",
+        "brand:wikidata": "Q138569799",
+        "cuisine": "frozen_yogurt",
+        "name": "Yo-Chi"
       }
     },
     {

@@ -261,6 +261,26 @@
       }
     },
     {
+      "displayName": "LRT Jabodebek",
+      "id": "lrtjabodebek-44909f",
+      "locationSet": {"include": ["id"]},
+      "tags": {
+        "network": "LRT Jabodebek",
+        "network:wikidata": "Q20427104",
+        "route": "light_rail"
+      }
+    },
+    {
+      "displayName": "LRT Jakarta",
+      "id": "lrtjakarta-44909f",
+      "locationSet": {"include": ["id"]},
+      "tags": {
+        "network": "LRT Jakarta",
+        "network:wikidata": "Q56810702",
+        "route": "light_rail"
+      }
+    },
+    {
       "displayName": "MAX",
       "id": "metropolitanareaexpress-6a0508",
       "locationSet": {

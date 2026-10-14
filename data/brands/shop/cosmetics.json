@@ -916,8 +916,8 @@
     },
     {
       "displayName": "The Face Shop",
-      "id": "thefaceshop-b395fe",
-      "locationSet": {"include": ["kr"]},
+      "id": "thefaceshop-d2b122",
+      "locationSet": {"include": ["kr", "ph"]},
       "tags": {
         "brand": "The Face Shop",
         "brand:en": "The Face Shop",

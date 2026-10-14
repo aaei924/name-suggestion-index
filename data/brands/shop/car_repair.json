@@ -467,6 +467,17 @@
       }
     },
     {
+      "displayName": "Doctor Glass",
+      "id": "doctorglass-af6229",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "Doctor Glass",
+        "brand:wikidata": "Q126961196",
+        "name": "Doctor Glass",
+        "shop": "car_repair"
+      }
+    },
+    {
       "displayName": "DS Automobiles",
       "id": "dsautomobiles-dc8719",
       "locationSet": {"include": ["001"]},
@@ -640,6 +651,18 @@
         "brand": "Glasfit",
         "brand:wikidata": "Q126981121",
         "name": "Glasfit",
+        "service:vehicle:glass": "yes",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "displayName": "GlassAuto",
+      "id": "glassauto-98e3a2",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "GlassAuto",
+        "brand:wikidata": "Q131983594",
+        "name": "GlassAuto",
         "service:vehicle:glass": "yes",
         "shop": "car_repair"
       }
@@ -1259,13 +1282,13 @@
       }
     },
     {
-      "displayName": "Rapid Pare Brise",
+      "displayName": "Rapid Pare-Brise",
       "id": "rapidparebrise-98e3a2",
       "locationSet": {"include": ["fr"]},
       "tags": {
-        "brand": "Rapid Pare Brise",
+        "brand": "Rapid Pare-Brise",
         "brand:wikidata": "Q112064766",
-        "name": "Rapid Pare Brise",
+        "name": "Rapid Pare-Brise",
         "service:vehicle:glass": "yes",
         "shop": "car_repair"
       }
@@ -1360,8 +1383,8 @@
     },
     {
       "displayName": "Speedy",
-      "id": "speedy-98e3a2",
-      "locationSet": {"include": ["fr"]},
+      "id": "speedy-cd3b68",
+      "locationSet": {"include": ["fr", "ma"]},
       "tags": {
         "brand": "Speedy",
         "brand:wikidata": "Q3492969",
@@ -1651,6 +1674,17 @@
         "brand:wikidata": "Q23816518",
         "name": "Wintec Autoglas",
         "service:vehicle:glass": "yes",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "displayName": "Ziebart",
+      "id": "ziebart-878d90",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Ziebart",
+        "brand:wikidata": "Q8071501",
+        "name": "Ziebart",
         "shop": "car_repair"
       }
     },

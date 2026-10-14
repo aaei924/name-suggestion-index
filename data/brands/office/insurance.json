@@ -72,6 +72,17 @@
       }
     },
     {
+      "displayName": "Alfa Insurance",
+      "id": "alfainsurance-6b1e37",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Alfa Insurance",
+        "brand:wikidata": "Q4033696",
+        "name": "Alfa Insurance",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Allianz",
       "id": "allianz-4457e3",
       "locationSet": {
@@ -410,6 +421,18 @@
         "brand": "ARAG",
         "brand:wikidata": "Q296380",
         "name": "ARAG",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "Aréas Assurances",
+      "id": "areasassurances-6ae572",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Aréas Assurances",
+        "brand:short": "Aréas",
+        "brand:wikidata": "Q126901086",
+        "name": "Aréas Assurances",
         "office": "insurance"
       }
     },
@@ -1911,6 +1934,19 @@
         "brand:wikidata": "Q129268975",
         "name": "Metropolitan",
         "office": "insurance"
+      }
+    },
+    {
+      "displayName": "MGEN",
+      "id": "mgen-6ae572",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "MGEN",
+        "brand:wikidata": "Q3331039",
+        "insurance": "health",
+        "name": "MGEN",
+        "office": "insurance",
+        "official_name": "Mutuelle générale de l'Éducation nationale"
       }
     },
     {

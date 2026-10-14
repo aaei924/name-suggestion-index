@@ -104,6 +104,17 @@
       }
     },
     {
+      "displayName": "Geile Warenautomaten",
+      "id": "geilewarenautomaten-3aec70",
+      "locationSet": {"include": ["de"]},
+      "matchNames": ["geile warenautomaten gmbh"],
+      "tags": {
+        "amenity": "vending_machine",
+        "operator": "Geile Warenautomaten",
+        "operator:wikidata": "Q141404805"
+      }
+    },
+    {
       "displayName": "Mennica Polska (ZTM Warszawa)",
       "id": "mennicapolska-7bef08",
       "locationSet": {

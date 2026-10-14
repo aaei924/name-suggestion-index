@@ -225,12 +225,11 @@
     },
     {
       "displayName": "Aldi (Aldi Süd group)",
-      "id": "aldi-141059",
+      "id": "aldi-e049e6",
       "issues": [10738],
       "locationSet": {
         "include": [
           "au",
-          "ch",
           "cn",
           "gb",
           "hu",
@@ -242,7 +241,6 @@
       "matchNames": [
         "aldi australia",
         "aldi süd",
-        "aldi suisse",
         "aldi uk",
         "aldi usa"
       ],
@@ -285,6 +283,16 @@
         "amenity": "charging_station",
         "operator": "Aldi",
         "operator:wikidata": "Q41171672"
+      }
+    },
+    {
+      "displayName": "Aldi Suisse",
+      "id": "aldisuisse-086737",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "amenity": "charging_station",
+        "operator": "Aldi Suisse",
+        "operator:wikidata": "Q111030009"
       }
     },
     {
@@ -1088,8 +1096,14 @@
     },
     {
       "displayName": "City of Gold Coast",
-      "id": "cityofgoldcoast-bd4e91",
-      "locationSet": {"include": [[153.4, -28]]},
+      "id": "cityofgoldcoast-830192",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
+      "matchNames": [
+        "gccc",
+        "gold coast city council"
+      ],
       "tags": {
         "amenity": "charging_station",
         "operator": "City of Gold Coast",
@@ -2215,6 +2229,7 @@
       "displayName": "Energie 360°",
       "id": "7977b1-086737",
       "locationSet": {"include": ["ch"]},
+      "note": "Charging offer folded into JOYA (JOYA Mobility AG) on 2026-10-01. Keep this entry while the on-site name is still Energie 360°. Energie 360° remains the parent company.",
       "tags": {
         "amenity": "charging_station",
         "operator": "Energie 360°",
@@ -2730,6 +2745,16 @@
       }
     },
     {
+      "displayName": "EVN (България)",
+      "id": "evn-befeeb",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "charging_station",
+        "operator": "EVN",
+        "operator:wikidata": "Q20498243"
+      }
+    },
+    {
       "displayName": "EVN (Северна Македонија)",
       "id": "evn-12d20d",
       "locationSet": {"include": ["mk"]},
@@ -3210,6 +3235,7 @@
       "displayName": "GOFAST",
       "id": "gofast-086737",
       "locationSet": {"include": ["ch"]},
+      "note": "Charging brand folded into JOYA (JOYA Mobility AG) on 2026-10-01. Keep this entry while the on-site name is still GOFAST.",
       "tags": {
         "amenity": "charging_station",
         "operator": "GOFAST",
@@ -3754,6 +3780,15 @@
         "amenity": "charging_station",
         "operator": "Joulz",
         "operator:wikidata": "Q129002048"
+      }
+    },
+    {
+      "displayName": "JOYA",
+      "id": "joya-086737",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "amenity": "charging_station",
+        "operator": "JOYA"
       }
     },
     {
@@ -4448,6 +4483,7 @@
       "displayName": "MOVE",
       "id": "move-086737",
       "locationSet": {"include": ["ch"]},
+      "note": "Charging brand folded into JOYA (JOYA Mobility AG) on 2026-10-01. Keep this entry while the on-site name is still MOVE.",
       "tags": {
         "amenity": "charging_station",
         "operator": "MOVE",
@@ -4674,16 +4710,6 @@
         "amenity": "charging_station",
         "operator": "OK",
         "operator:wikidata": "Q12329785"
-      }
-    },
-    {
-      "displayName": "OMV eMotion",
-      "id": "omv-c22d3a",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "amenity": "charging_station",
-        "operator": "OMV",
-        "operator:wikidata": "Q168238"
       }
     },
     {
@@ -7084,6 +7110,7 @@
       "displayName": "Swisscharge",
       "id": "swisscharge-086737",
       "locationSet": {"include": ["ch"]},
+      "note": "Charging brand folded into JOYA (JOYA Mobility AG) on 2026-10-01. Keep this entry while the on-site name is still Swisscharge.",
       "tags": {
         "amenity": "charging_station",
         "operator": "Swisscharge",
@@ -7275,24 +7302,6 @@
         "amenity": "charging_station",
         "operator": "Teplárny Brno",
         "operator:wikidata": "Q54980987"
-      }
-    },
-    {
-      "displayName": "TESLA France SARL",
-      "id": "teslafrancesarl-170e94",
-      "locationSet": {"include": ["fx"]},
-      "tags": {
-        "amenity": "charging_station",
-        "operator": "TESLA France SARL"
-      }
-    },
-    {
-      "displayName": "Tesla Germany GmbH",
-      "id": "teslagermanygmbh-1299a8",
-      "locationSet": {"include": ["de"]},
-      "tags": {
-        "amenity": "charging_station",
-        "operator": "Tesla Germany GmbH"
       }
     },
     {
@@ -7945,25 +7954,6 @@
         "amenity": "charging_station",
         "operator": "Γαλαξίας",
         "operator:wikidata": "Q5518063"
-      }
-    },
-    {
-      "displayName": "ΔΕΗ",
-      "id": "788cf3-e68869",
-      "locationSet": {"include": ["gr"]},
-      "tags": {
-        "amenity": "charging_station",
-        "operator": "ΔΕΗ",
-        "operator:wikidata": "Q326345"
-      }
-    },
-    {
-      "displayName": "ΔΕΗ blue",
-      "id": "3ef695-e68869",
-      "locationSet": {"include": ["gr"]},
-      "tags": {
-        "amenity": "charging_station",
-        "operator": "ΔΕΗ blue"
       }
     },
     {

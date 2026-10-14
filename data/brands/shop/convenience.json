@@ -2301,6 +2301,47 @@
       }
     },
     {
+      "displayName": "FiveStar",
+      "id": "fivestar-42bf18",
+      "locationSet": {
+        "include": [
+          "us-in.geojson",
+          "us-ky.geojson",
+          "us-tn.geojson"
+        ]
+      },
+      "matchNames": ["five star food mart"],
+      "tags": {
+        "brand": "FiveStar",
+        "brand:wikidata": "Q127690151",
+        "name": "FiveStar",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Flop",
+      "id": "flop-a7773e",
+      "locationSet": {"include": ["cz"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Flop",
+        "brand:wikidata": "Q141119217",
+        "name": "Flop",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Flop Top",
+      "id": "floptop-a7773e",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "brand": "Flop Top",
+        "brand:wikidata": "Q141119217",
+        "name": "Flop Top",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "Flying J",
       "id": "flyingj-16ec4d",
       "locationSet": {"include": ["ca", "us"]},
@@ -2582,6 +2623,17 @@
         "brand": "Go Local",
         "brand:wikidata": "Q120634011",
         "name": "Go Local",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Go Local Extra",
+      "id": "golocalextra-232829",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "Go Local",
+        "brand:wikidata": "Q120634011",
+        "name": "Go Local Extra",
         "shop": "convenience"
       }
     },
@@ -3757,6 +3809,17 @@
       }
     },
     {
+      "displayName": "Mass",
+      "id": "mass-853840",
+      "locationSet": {"include": ["pe"]},
+      "tags": {
+        "brand": "Mass",
+        "brand:wikidata": "Q104814825",
+        "name": "Mass",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "masymas basic",
       "id": "masymasbasic-849ea7",
       "locationSet": {
@@ -3972,13 +4035,12 @@
     },
     {
       "displayName": "Mini Mix",
-      "id": "minimix-ba18ab",
+      "id": "minimix-771921",
       "locationSet": {
         "include": [
           "at",
           "be",
           "cy",
-          "cz",
           "de",
           "es",
           "fx",
@@ -4081,6 +4143,18 @@
         "name": "miniピアゴ",
         "name:en": "mini Piago",
         "name:ja": "miniピアゴ",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Mix Markt",
+      "id": "mixmarkt-65ae8a",
+      "locationSet": {"include": ["cz", "sk"]},
+      "matchTags": ["shop/supermarket"],
+      "tags": {
+        "brand": "Mix Markt",
+        "brand:wikidata": "Q327854",
+        "name": "Mix Markt",
         "shop": "convenience"
       }
     },
@@ -4569,8 +4643,8 @@
     },
     {
       "displayName": "On the Run",
-      "id": "ontherun-4d6b4b",
-      "locationSet": {"include": ["001"]},
+      "id": "ontherun-16ec4d",
+      "locationSet": {"include": ["ca", "us"]},
       "tags": {
         "brand": "On the Run",
         "brand:wikidata": "Q16931259",
@@ -4628,6 +4702,7 @@
       "displayName": "OTR",
       "id": "otr-0b0ae9",
       "locationSet": {"include": ["au"]},
+      "matchNames": ["on the run"],
       "tags": {
         "brand": "OTR",
         "brand:wikidata": "Q116394019",
@@ -4832,6 +4907,18 @@
         "brand": "Pont to go",
         "brand:wikidata": "Q138807123",
         "name": "Pont to go",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Potraviny CZ",
+      "id": "potravinycz-a7773e",
+      "locationSet": {"include": ["cz"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Potraviny CZ",
+        "brand:wikidata": "Q141119228",
+        "name": "Potraviny CZ",
         "shop": "convenience"
       }
     },
@@ -5407,6 +5494,18 @@
       }
     },
     {
+      "displayName": "Sherpa",
+      "id": "sherpa-f6dc0a",
+      "locationSet": {"include": ["fx"]},
+      "matchTags": ["shop/supermarket"],
+      "tags": {
+        "brand": "Sherpa",
+        "brand:wikidata": "Q3481967",
+        "name": "Sherpa",
+        "shop": "convenience"
+      }
+    },
+    {
       "displayName": "Shop'N Drive",
       "id": "shopndrive-232829",
       "locationSet": {"include": ["gb"]},
@@ -5944,9 +6043,10 @@
         "tempo market potraviny",
         "tempo tuty"
       ],
+      "preserveTags": ["^name"],
       "tags": {
         "brand": "Tempo",
-        "brand:wikidata": "Q52851660",
+        "brand:wikidata": "Q58527483",
         "name": "Tempo",
         "shop": "convenience"
       }

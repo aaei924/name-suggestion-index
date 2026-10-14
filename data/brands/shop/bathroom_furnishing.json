@@ -22,6 +22,17 @@
       }
     },
     {
+      "displayName": "Facq",
+      "id": "facq-caedbb",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "brand": "Facq",
+        "brand:wikidata": "Q141496238",
+        "name": "Facq",
+        "shop": "bathroom_furnishing"
+      }
+    },
+    {
       "displayName": "Frank Webb Home",
       "id": "frankwebbhome-f64940",
       "locationSet": {
@@ -73,6 +84,22 @@
         "brand": "Ptáček",
         "brand:wikidata": "Q58195153",
         "name": "Ptáček",
+        "shop": "bathroom_furnishing"
+      }
+    },
+    {
+      "displayName": "Richardson",
+      "id": "richardson-8d633f",
+      "locationSet": {"include": ["fx"]},
+      "matchTags": [
+        "craft/plumber",
+        "shop/furniture",
+        "shop/kitchen"
+      ],
+      "tags": {
+        "brand": "Richardson",
+        "brand:wikidata": "Q3415192",
+        "name": "Richardson",
         "shop": "bathroom_furnishing"
       }
     },

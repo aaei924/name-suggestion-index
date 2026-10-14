@@ -488,9 +488,10 @@
     },
     {
       "displayName": "Normal",
-      "id": "normal-475770",
+      "id": "normal-9970e8",
       "locationSet": {
         "include": [
+          "at",
           "cz",
           "dk",
           "es",
@@ -501,6 +502,7 @@
           "nl",
           "no",
           "pt",
+          "ro",
           "se",
           "sk"
         ]
@@ -538,9 +540,10 @@
     },
     {
       "displayName": "Rossmann",
-      "id": "rossmann-06ae64",
+      "id": "rossmann-3e0aee",
       "locationSet": {
         "include": [
+          "ch",
           "cz",
           "de",
           "es",

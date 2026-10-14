@@ -284,8 +284,8 @@
     },
     {
       "displayName": "Catholic Relief Services",
-      "id": "catholicreliefservices-481bb7",
-      "locationSet": {"include": ["ht"]},
+      "id": "catholicreliefservices-48c608",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "amenity": "toilets",
         "operator": "Catholic Relief Services",
@@ -355,6 +355,22 @@
         "operator:type": "government",
         "operator:wikidata": "Q1185115",
         "operator:xh": "IsiXeko saseKapa"
+      }
+    },
+    {
+      "displayName": "City of Gold Coast",
+      "id": "cityofgoldcoast-1f33cd",
+      "locationSet": {
+        "include": ["au-qld.geojson"]
+      },
+      "matchNames": [
+        "gccc",
+        "gold coast city council"
+      ],
+      "tags": {
+        "amenity": "toilets",
+        "operator": "City of Gold Coast",
+        "operator:wikidata": "Q30267253"
       }
     },
     {
@@ -815,6 +831,23 @@
         "amenity": "toilets",
         "operator": "Lidl",
         "operator:wikidata": "Q108169047"
+      }
+    },
+    {
+      "displayName": "London Borough of Richmond upon Thames",
+      "id": "londonboroughofrichmonduponthames-a1f30d",
+      "locationSet": {
+        "include": ["gb-lon.geojson"]
+      },
+      "matchNames": [
+        "london borough of richmond upon thames council"
+      ],
+      "tags": {
+        "amenity": "toilets",
+        "operator": "London Borough of Richmond upon Thames",
+        "operator:short": "LBRUT",
+        "operator:type": "government",
+        "operator:wikidata": "Q32515"
       }
     },
     {

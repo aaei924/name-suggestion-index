@@ -113,6 +113,17 @@
       }
     },
     {
+      "displayName": "Octagon",
+      "id": "octagon-6648aa",
+      "locationSet": {"include": ["ph"]},
+      "tags": {
+        "brand": "Octagon",
+        "brand:wikidata": "Q28405520",
+        "name": "Octagon",
+        "shop": "computer"
+      }
+    },
+    {
       "displayName": "PB Tech",
       "id": "pbtech-57fd22",
       "locationSet": {"include": ["nz"]},

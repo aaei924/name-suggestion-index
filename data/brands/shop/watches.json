@@ -53,6 +53,17 @@
       }
     },
     {
+      "displayName": "Chopard",
+      "id": "chopard-101248",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Chopard",
+        "brand:wikidata": "Q670112",
+        "name": "Chopard",
+        "shop": "watches"
+      }
+    },
+    {
       "displayName": "Fastrack",
       "id": "fastrack-101248",
       "locationSet": {"include": ["001"]},

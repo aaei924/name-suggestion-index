@@ -27,6 +27,17 @@
       }
     },
     {
+      "displayName": "1083",
+      "id": "1083-4a3e29",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "1083",
+        "brand:wikidata": "Q119684281",
+        "name": "1083",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "361度",
       "id": "04f53b-88aa58",
       "locationSet": {"include": ["cn"]},
@@ -1215,6 +1226,18 @@
       }
     },
     {
+      "displayName": "Bigotti",
+      "id": "bigotti-4b1198",
+      "locationSet": {"include": ["ro"]},
+      "tags": {
+        "brand": "Bigotti",
+        "brand:wikidata": "Q4907014",
+        "clothes": "men",
+        "name": "Bigotti",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Bik Bok",
       "id": "bikbok-0779c3",
       "locationSet": {"include": ["se"]},
@@ -1315,6 +1338,20 @@
         "brand:wikidata": "Q108064966",
         "clothes": "suits",
         "name": "Blažek",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Bleuforêt",
+      "id": "bleuforet-718015",
+      "locationSet": {
+        "include": ["be", "de", "fr", "it", "nl"]
+      },
+      "tags": {
+        "brand": "Bleuforêt",
+        "brand:wikidata": "Q2906440",
+        "clothes": "underwear",
+        "name": "Bleuforêt",
         "shop": "clothes"
       }
     },
@@ -3263,6 +3300,20 @@
       }
     },
     {
+      "displayName": "Ding Fring",
+      "id": "dingfring-4a3e29",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Ding Fring",
+        "brand:wikidata": "Q141502105",
+        "name": "Ding Fring",
+        "operator": "Le Relais",
+        "operator:wikidata": "Q16654240",
+        "second_hand": "only",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Dior",
       "id": "dior-3937bd",
       "locationSet": {"include": ["001"]},
@@ -3854,6 +3905,17 @@
       }
     },
     {
+      "displayName": "Espace des Marques",
+      "id": "espacedesmarques-90f7b7",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Espace des Marques",
+        "brand:wikidata": "Q141175409",
+        "name": "Espace des Marques",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Esprit",
       "id": "esprit-5a997a",
       "locationSet": {
@@ -3936,8 +3998,8 @@
     },
     {
       "displayName": "Ever New",
-      "id": "evernew-9e1367",
-      "locationSet": {"include": ["ca"]},
+      "id": "evernew-66fda4",
+      "locationSet": {"include": ["ca", "ph"]},
       "tags": {
         "brand": "Ever New",
         "brand:wikidata": "Q119221929",
@@ -4368,8 +4430,10 @@
     },
     {
       "displayName": "Free People",
-      "id": "freepeople-0615dc",
-      "locationSet": {"include": ["ca", "us"]},
+      "id": "freepeople-281261",
+      "locationSet": {
+        "include": ["ca", "dk", "fr", "gb", "us"]
+      },
       "tags": {
         "brand": "Free People",
         "brand:wikidata": "Q5499945",
@@ -4668,6 +4732,18 @@
         "brand": "Gina Tricot",
         "brand:wikidata": "Q1524904",
         "name": "Gina Tricot",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Gingersnaps",
+      "id": "gingersnaps-08e127",
+      "locationSet": {"include": ["ph"]},
+      "tags": {
+        "brand": "Gingersnaps",
+        "brand:wikidata": "Q12686970",
+        "clothes": "children",
+        "name": "Gingersnaps",
         "shop": "clothes"
       }
     },
@@ -7122,6 +7198,17 @@
       }
     },
     {
+      "displayName": "Maldita",
+      "id": "maldita-08e127",
+      "locationSet": {"include": ["ph"]},
+      "tags": {
+        "brand": "Maldita",
+        "brand:wikidata": "Q141554486",
+        "name": "Maldita",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Malwee",
       "id": "malwee-c7d1e1",
       "locationSet": {"include": ["br"]},
@@ -8521,6 +8608,18 @@
         "brand": "Once Upon a Child",
         "brand:wikidata": "Q113253224",
         "name": "Once Upon a Child",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Onésimus",
+      "id": "onesimus-08e127",
+      "locationSet": {"include": ["ph"]},
+      "tags": {
+        "brand": "Onésimus",
+        "brand:wikidata": "Q141592852",
+        "clothes": "men;suits",
+        "name": "Onésimus",
         "shop": "clothes"
       }
     },
@@ -10480,6 +10579,19 @@
       }
     },
     {
+      "displayName": "SKIMS",
+      "id": "skims-2751df",
+      "locationSet": {
+        "include": ["gb", "mx", "us"]
+      },
+      "tags": {
+        "brand": "SKIMS",
+        "brand:wikidata": "Q110778161",
+        "name": "SKIMS",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Skipper Bar",
       "id": "skipperbar-bd328b",
       "locationSet": {"include": ["za"]},
@@ -11102,6 +11214,20 @@
       }
     },
     {
+      "displayName": "Tara Jarmon",
+      "id": "tarajarmon-d2a81f",
+      "locationSet": {
+        "include": ["ch", "fr", "lu"]
+      },
+      "tags": {
+        "brand": "Tara Jarmon",
+        "brand:wikidata": "Q141580805",
+        "clothes": "women",
+        "name": "Tara Jarmon",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "Tarocash",
       "id": "tarocash-392c8b",
       "locationSet": {"include": ["au"]},
@@ -11429,13 +11555,13 @@
     },
     {
       "displayName": "Tøjeksperten",
-      "id": "tojeskperten-7949a4",
+      "id": "tojeksperten-7949a4",
       "locationSet": {"include": ["dk"]},
       "tags": {
         "brand": "Tøjeksperten",
         "brand:wikidata": "Q12339995",
         "clothes": "men",
-        "name": "Tøjeskperten",
+        "name": "Tøjeksperten",
         "shop": "clothes"
       }
     },

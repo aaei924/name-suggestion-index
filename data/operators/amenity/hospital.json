@@ -590,6 +590,20 @@
       }
     },
     {
+      "displayName": "Christian Health Association of Ghana",
+      "id": "christianhealthassociationofghana-e476e7",
+      "locationSet": {"include": ["gh"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Christian Health Association of Ghana",
+        "operator:short": "CHAG",
+        "operator:type": "religious",
+        "operator:wikidata": "Q5109683",
+        "religion": "christian"
+      }
+    },
+    {
       "displayName": "ChristianaCare",
       "id": "christianacare-9c32f9",
       "locationSet": {
@@ -1105,6 +1119,18 @@
         "operator:short": "GRN",
         "operator:type": "private",
         "operator:wikidata": "Q48754458"
+      }
+    },
+    {
+      "displayName": "Ghana Health Service",
+      "id": "ghanahealthservice-e476e7",
+      "locationSet": {"include": ["gh"]},
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "operator": "Ghana Health Service",
+        "operator:type": "government",
+        "operator:wikidata": "Q5555350"
       }
     },
     {

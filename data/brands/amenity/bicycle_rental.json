@@ -329,18 +329,6 @@
       }
     },
     {
-      "displayName": "Bici Cuenca",
-      "id": "bicicuenca-3e9425",
-      "locationSet": {"include": ["ec"]},
-      "tags": {
-        "amenity": "bicycle_rental",
-        "brand": "Bici Cuenca",
-        "network": "Bici Cuenca",
-        "operator": "Bici Cuenca",
-        "operator:type": "private"
-      }
-    },
-    {
       "displayName": "Bici Las Condes",
       "id": "bicilascondes-70bf31",
       "locationSet": {"include": ["cl"]},
@@ -350,6 +338,19 @@
         "network": "Bici Las Condes",
         "operator": "Clear Channel",
         "operator:type": "private"
+      }
+    },
+    {
+      "displayName": "Bici Pública Cuenca",
+      "id": "bicipublicacuenca-3e9425",
+      "locationSet": {"include": ["ec"]},
+      "matchNames": ["bici cuenca"],
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "Bici Pública Cuenca",
+        "brand:wikidata": "Q141547147",
+        "network": "Bici Pública Cuenca",
+        "network:wikidata": "Q141547147"
       }
     },
     {
@@ -1698,6 +1699,21 @@
       }
     },
     {
+      "displayName": "Evolve E-Bike Share",
+      "id": "evolve-9d816b",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "Evolve",
+        "brand:wikidata": "Q137825732",
+        "fee": "yes",
+        "operator": "Evo Car Share",
+        "operator:wikidata": "Q26553214"
+      }
+    },
+    {
       "displayName": "Explore Bike Share",
       "id": "explorebikeshare-6206fb",
       "locationSet": {
@@ -2055,9 +2071,9 @@
         "brand:wikidata": "Q3146580",
         "network": "IDEcycle",
         "network:wikidata": "Q3146580",
-        "operator": "Cykleo",
+        "operator": "Fifteen",
         "operator:type": "private",
-        "operator:wikidata": "Q109250587"
+        "operator:wikidata": "Q3487061"
       }
     },
     {
@@ -2775,9 +2791,9 @@
       "tags": {
         "amenity": "bicycle_rental",
         "brand": "MuyBici",
+        "brand:wikidata": "Q141548207",
         "network": "MuyBici",
-        "operator": "UTE MuyBici servicio público de transporte con bicicleta de Murcia",
-        "operator:type": "private"
+        "network:wikidata": "Q141548207"
       }
     },
     {
@@ -2846,6 +2862,32 @@
         "operator": "Cyclocity",
         "operator:type": "private",
         "operator:wikidata": "Q3008464"
+      }
+    },
+    {
+      "displayName": "nextbike (Česko)",
+      "id": "nextbike-2a6f5f",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "nextbike",
+        "brand:wikidata": "Q2351279",
+        "operator": "nextbike Czech Republic",
+        "operator:type": "private",
+        "operator:wikidata": "Q88977496"
+      }
+    },
+    {
+      "displayName": "nextbike (Slovensko)",
+      "id": "nextbike-3e2129",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "amenity": "bicycle_rental",
+        "brand": "nextbike",
+        "brand:wikidata": "Q2351279",
+        "operator": "nextbike Slovakia",
+        "operator:type": "private",
+        "operator:wikidata": "Q141402439"
       }
     },
     {

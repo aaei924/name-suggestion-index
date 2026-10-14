@@ -759,6 +759,17 @@
       }
     },
     {
+      "displayName": "Tsunami Express",
+      "id": "tsunamiexpress-244496",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Tsunami Express",
+        "brand:wikidata": "Q139980358",
+        "name": "Tsunami Express"
+      }
+    },
+    {
       "displayName": "Uno-X",
       "id": "unox-56bd0e",
       "locationSet": {"include": ["dk", "no"]},
@@ -786,15 +797,15 @@
     },
     {
       "displayName": "Wash World",
-      "id": "washworld-83b5fb",
-      "locationSet": {"include": ["dk"]},
+      "id": "washworld-436258",
+      "locationSet": {
+        "include": ["de", "dk", "no", "se"]
+      },
       "tags": {
         "amenity": "car_wash",
         "brand": "Wash World",
         "brand:wikidata": "Q130249954",
-        "name": "Wash World",
-        "operator": "Wash World",
-        "operator:wikidata": "Q130249954"
+        "name": "Wash World"
       }
     },
     {
@@ -808,6 +819,17 @@
         "brand": "Washman",
         "brand:wikidata": "Q109827210",
         "name": "Washman"
+      }
+    },
+    {
+      "displayName": "Washtec",
+      "id": "washtech-43b899",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Washtec",
+        "brand:wikidata": "Q141129553",
+        "name": "Washtech"
       }
     },
     {

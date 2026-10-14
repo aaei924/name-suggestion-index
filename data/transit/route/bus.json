@@ -1247,10 +1247,9 @@
         "amt (barcelona)",
         "atm (autoritat del transport metropolità de l'àrea de barcelona)"
       ],
-      "note": "Barcelona, Spain",
       "tags": {
         "network": "Autoritat del Transport Metropolità de l'Àrea de Barcelona",
-        "network:short": "ATM",
+        "network:short": "ATM Barcelona",
         "network:wikidata": "Q1845633",
         "route": "bus"
       }
@@ -4647,7 +4646,6 @@
       },
       "tags": {
         "network": "Consorcio de Transportes del Área de Zaragoza",
-        "network:guid": "ES-AR-Z-CTAZ",
         "network:short": "CTAZ",
         "network:wikidata": "Q5784328",
         "route": "bus"
@@ -7018,7 +7016,7 @@
         "network": "Gooi- en Vechtstreek",
         "network:wikidata": "Q108723753",
         "operator": "Transdev",
-        "operator:wikidata": "Q442637",
+        "operator:wikidata": "Q131179812",
         "route": "bus"
       }
     },
@@ -8923,17 +8921,6 @@
       }
     },
     {
-      "displayName": "KMK",
-      "id": "kmk-9340cc",
-      "locationSet": {"include": ["pl"]},
-      "note": "ISO 3166-2 PL-12",
-      "tags": {
-        "network": "KMK",
-        "network:wikidata": "Q11687034",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "Kocaeli Otobüsleri",
       "id": "kocaeliotobusleri-8150d4",
       "locationSet": {"include": ["tr"]},
@@ -9056,6 +9043,8 @@
       "note": "ISO 3166-2 PL-12",
       "tags": {
         "network": "Komunikacja Miejska w Krakowie",
+        "network:short": "KMK",
+        "network:wikidata": "Q141244075",
         "route": "bus"
       }
     },
@@ -10363,6 +10352,21 @@
       "tags": {"network": "Macau", "route": "bus"}
     },
     {
+      "displayName": "MAD Piešťany",
+      "id": "mestskaautobusovadopravapiestany-51c51c",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["mhd piestany"],
+      "note": "ISO 3166-2 SK-TA",
+      "tags": {
+        "network": "Mestská autobusová doprava Piešťany",
+        "network:short": "MAD Piešťany",
+        "network:wikidata": "Q110521796",
+        "operator": "Arriva Trnava",
+        "operator:wikidata": "Q131698585",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "MAD Třebíč",
       "id": "madtrebic-a45453",
       "locationSet": {"include": ["001"]},
@@ -11368,17 +11372,16 @@
     },
     {
       "displayName": "MHD Bratislava",
-      "id": "mhdbratislava-ce8ad1",
+      "id": "mhdbratislava-55fe1b",
       "locationSet": {
-        "include": [
-          "at-3.geojson",
-          "hu",
-          "sk-bl.geojson"
-        ]
+        "include": ["sk-bl.geojson"]
       },
       "tags": {
         "network": "MHD Bratislava",
         "network:wikidata": "Q7258005",
+        "operator": "Dopravný podnik Bratislava",
+        "operator:short": "DPB",
+        "operator:wikidata": "Q685601",
         "route": "bus"
       }
     },
@@ -11619,19 +11622,6 @@
       }
     },
     {
-      "displayName": "MHD Piešťany",
-      "id": "mhdpiestany-51c51c",
-      "locationSet": {"include": ["sk"]},
-      "note": "ISO 3166-2 SK-TA",
-      "tags": {
-        "network": "MHD Piešťany",
-        "network:wikidata": "Q110521796",
-        "operator": "Arriva Trnava",
-        "operator:wikidata": "Q131698585",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "MHD Písek",
       "id": "mhdpisek-a45453",
       "locationSet": {"include": ["001"]},
@@ -11819,6 +11809,20 @@
       "locationSet": {"include": ["001"]},
       "tags": {
         "network": "MHD v Pardubicích",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "MHD Valašské Meziříčí",
+      "id": "mhdvalasskemezirici-acaf49",
+      "locationSet": {
+        "include": ["cz-72.geojson"]
+      },
+      "tags": {
+        "network": "MHD Valašské Meziříčí",
+        "network:wikidata": "Q140756384",
+        "operator": "TQM - holding",
+        "operator:wikidata": "Q12058188",
         "route": "bus"
       }
     },
@@ -12655,13 +12659,14 @@
       }
     },
     {
-      "displayName": "MUV",
-      "id": "muv-fdc094",
+      "displayName": "MUV - Mobilidade Urbana de Viseu",
+      "id": "mobilidadeurbanadeviseu-fdc094",
       "locationSet": {
         "include": ["pt-18.geojson"]
       },
       "tags": {
-        "network": "MUV",
+        "network": "Mobilidade Urbana de Viseu",
+        "network:short": "MUV",
         "network:wikidata": "Q63247817",
         "route": "bus"
       }
@@ -12969,6 +12974,21 @@
         "network": "Nahverkehrsverbund Schleswig-Holstein",
         "network:short": "NAH.SH",
         "network:wikidata": "Q15825147",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Naolib",
+      "id": "naolib-00e183",
+      "locationSet": {
+        "include": ["fr-pdl.geojson"]
+      },
+      "matchNames": ["tan"],
+      "tags": {
+        "network": "Naolib",
+        "network:wikidata": "Q17519150",
+        "operator": "Semitan",
+        "operator:wikidata": "Q3487840",
         "route": "bus"
       }
     },
@@ -17640,25 +17660,25 @@
       }
     },
     {
-      "displayName": "SN'go",
-      "id": "sngo-6efcc0",
-      "locationSet": {
-        "include": ["fr-nor.geojson"]
-      },
-      "matchNames": ["transcape"],
-      "tags": {
-        "network": "SN'go",
-        "network:wikidata": "Q86669125",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "SNG",
       "id": "sng-d9bf75",
       "locationSet": {
         "include": ["de-th.geojson"]
       },
       "tags": {"network": "SNG", "route": "bus"}
+    },
+    {
+      "displayName": "SNgo!",
+      "id": "sngo-6efcc0",
+      "locationSet": {
+        "include": ["fr-nor.geojson"]
+      },
+      "matchNames": ["transcape"],
+      "tags": {
+        "network": "SNgo!",
+        "network:wikidata": "Q86669125",
+        "route": "bus"
+      }
     },
     {
       "displayName": "Sochaczew",
@@ -18502,6 +18522,19 @@
       }
     },
     {
+      "displayName": "STUV - Serviço de Trasportes Urbanos de Viseu",
+      "id": "servicodetrasportesurbanosdeviseu-fdc094",
+      "locationSet": {
+        "include": ["pt-18.geojson"]
+      },
+      "tags": {
+        "network": "Serviço de Trasportes Urbanos de Viseu",
+        "network:short": "STUV",
+        "network:wikidata": "Q10370644",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Sub",
       "id": "sub-8203f9",
       "locationSet": {
@@ -18958,20 +18991,6 @@
       "tags": {
         "network": "TAMSE",
         "network:wikidata": "Q6151720",
-        "route": "bus"
-      }
-    },
-    {
-      "displayName": "TAN",
-      "id": "tan-00e183",
-      "locationSet": {
-        "include": ["fr-pdl.geojson"]
-      },
-      "tags": {
-        "network": "TAN",
-        "network:wikidata": "Q17519150",
-        "operator": "SEMITAN",
-        "operator:wikidata": "Q3487840",
         "route": "bus"
       }
     },
@@ -25991,8 +26010,25 @@
       }
     },
     {
+      "displayName": "京成バス千葉イースト",
+      "id": "keiseibuschibaeast-ace507",
+      "locationSet": {
+        "include": [
+          "jp-12.geojson",
+          "jp-13.geojson"
+        ]
+      },
+      "tags": {
+        "network": "京成バス千葉イースト",
+        "network:en": "Keisei Bus Chiba East",
+        "network:ja": "京成バス千葉イースト",
+        "network:wikidata": "Q133884605",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "京成バス千葉ウエスト",
-      "id": "keiseitransitbus-54d9ea",
+      "id": "keiseibuschibawest-54d9ea",
       "locationSet": {
         "include": ["jp-12.geojson"]
       },
@@ -26007,7 +26043,7 @@
     },
     {
       "displayName": "京成バス千葉セントラル",
-      "id": "keiseitransitbus-54d9ea",
+      "id": "keiseibuschibacentral-54d9ea",
       "locationSet": {
         "include": ["jp-12.geojson"]
       },
@@ -26016,23 +26052,6 @@
         "network:en": "Keisei Bus Chiba Central",
         "network:ja": "京成バス千葉セントラル",
         "network:wikidata": "Q133884523",
-        "route": "bus"
-      }
-    },
-    {
-      "displayName": "京成バス千葉イースト",
-      "id": "keiseibuschibaeast-ace507",
-      "locationSet": {
-        "include": [
-          "jp-12.geojson",
-          "jp-13.geojson"
-        ]
-      },
-      "tags": {
-        "network": "京成バス千葉イースト",
-        "network:en": "Keisei Bus Chiba East",
-        "network:ja": "京成バス千葉イースト",
-        "network:wikidata": "Q133884605",
         "route": "bus"
       }
     },
@@ -26055,6 +26074,7 @@
     },
     {
       "displayName": "京王バス",
+      "id": "keiobus-e74125",
       "locationSet": {
         "include": [
           "jp-13.geojson",
@@ -26071,6 +26091,7 @@
     },
     {
       "displayName": "京王電鉄バス",
+      "id": "keiodentetsubus-e74125",
       "locationSet": {
         "include": [
           "jp-13.geojson",
