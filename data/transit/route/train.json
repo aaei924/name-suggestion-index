@@ -2479,26 +2479,6 @@
       }
     },
     {
-      "displayName": "SRT (South Korea)",
-      "id": "srt-96baee",
-      "locationSet": {"include": ["kr"]},
-      "matchNames": [
-        "sr",
-        "super rapid train",
-        "supreme railway",
-        "에스알"
-      ],
-      "tags": {
-        "network": "SRT",
-        "network:wikidata": "Q3088068",
-        "operator": "SR공사",
-        "operator:en": "SR Corporation",
-        "operator:ko": "SR공사",
-        "operator:wikidata": "Q15615204",
-        "route": "train"
-      }
-    },
-    {
       "displayName": "STIBM",
       "id": "stibm-01d66d",
       "locationSet": {
